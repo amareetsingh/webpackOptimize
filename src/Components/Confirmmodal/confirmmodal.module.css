@@ -1,0 +1,40 @@
+.content{
+    text-align: left;
+    padding: 20px;
+}
+.content img{
+    width: 100px;
+    height: 100px;
+}
+.content h2{
+    font-weight: normal;
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.content .btnbox {
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+    margin-top: 15px;
+    text-align: right;
+}
+
+.btnbox{
+    margin-top: 30px;    
+}
+.btnbox button{
+    padding: 6px 16px;
+    font-family: 'Roboto';
+}
+.btnbox .closebtn{
+    border: 1px solid #e5e5e5;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.746);
+    margin-right: 10px;
+}
+.btnbox .closebtn:hover{
+    background-color: transparent;
+    color: rgba(0, 0, 0, 1);
+    border-color: #ccc;
+}

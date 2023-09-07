@@ -1,0 +1,69 @@
+.thankyou_page{
+   
+    text-align: center;
+    background-color: #473E8F;    
+}
+.thankyou_page .topbanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+        position: relative;
+        padding-bottom: 100px;
+}
+.thankyou_page .topbanner::before{
+    content: "";
+    background-image: url(../../assets/images/Subtract.png);
+    background-size: contain;
+    background-position: right top;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    right: 0;
+    top: 0;
+    background-repeat: no-repeat;
+}
+.thankyou_page .topbanner::after{
+    content: "";
+    background-image: url(../../assets/images/Frame.png);
+    background-size: contain;
+    background-position: right top;
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+}
+.thankyou_page .topbanner h3{
+    font-size: 50px;
+    line-height: 62px;
+    font-family: 'Roboto';
+    margin-bottom: 20px;
+    color: #fff;
+    z-index: 99;
+    position: relative;
+}
+.thankyou_page .topbanner p{
+    font-size: 18px;
+    line-height: 26pxpx;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #fff;
+    z-index: 99;
+    position: relative;
+}
+.thankyou_page .topbanner a{
+    width: 204px;
+    height: 55px;
+    padding: 14px 24px 17px;
+    background: #4285F4;
+    border-radius: 100px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+}
+.thankyou_page .topbanner a svg{margin-right: 8px;}

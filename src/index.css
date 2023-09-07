@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
+
+
+html.tox-fullscreen  div#breadscumbs {
+  z-index: 0 !important;
+}
+html.tox-fullscreen div#asssesmentsRight{
+  z-index: -1 !important;
+}
+.hiddenchat div#freshworks-container {
+  display: none !important;
+}
+html.tox-fullscreen footer{
+  z-index: -1;
+}
+body {
+  margin: 0;
+    font-family: Roboto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;  
+  padding-bottom: 76px !important;  
+  position: relative;
+  min-height: 100vh;
+}
+div#freshworks-container,div#freshworks-container iframe {
+  z-index: 99 !important;
+}
+.tox.tox-tinymce.tox-fullscreen{
+  top:0px !important;
+  z-index: 999999 !important;
+}
+.tox .tox-tbtn--bespoke .tox-tbtn__select-label{
+  width: auto !important;
+}
+.toast{
+  top: 10px !important;
+  right: 10px;
+}
+@media screen and (max-width:767px){
+  body{padding-bottom: 0 !important;}
+}
+body .nav-tabs .nav-link.active{
+  text-decoration: underline;
+}
+.ck-editor__editable_inline {
+    min-height: 250px;
+}
+.relative {
+  position: relative;
+}
+span.tox-statusbar__branding {display: none !important;}
+.tox-notification.tox-notification--in.tox-notification--warning {display: none !important;}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* li.breadcrumb-item a {border-bottom: 1px solid #262626;} */
+.primary{background-color: #0d6efd !important}
+.success{background-color: #198754 !important; z-index: 9999;}
+.secondary{background-color: #6c757d !important}
+.danger{background-color: #dc3545 !important; z-index: 9999;}
+.warning{background-color: #ffc107 !important}
+.info{background-color: #0dcaf0 !important}
+.me-2{margin-right: 8px;}
+.toast{
+  position: fixed;
+  right: 0px;
+  top: 65px;
+  z-index: 999999;
+}
+@media screen and (max-width:450px){
+  .toast{ width: 280px !important;}
+  .toast-header p{font-size: 12px;}
+}
+.toast-header{justify-content: space-between; font-size: 14px; }
+.toast-header p{margin-bottom: 0;}
+.toast-header p:first-child{font-weight: 500;}
+.toast-inner{display: flex; align-items: flex-start;}
+.toast-inner svg{margin-right: 16px; margin-top: 5px;}
+.toast-body{font-size: 14px;}
+.toast-header .btn-close{
+  font-size: 14px;
+  background-image: url(./assets/images/close.svg) ;
+  background-repeat: no-repeat;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+}
+.toast-header .btn-close:focus{ box-shadow: none;}
+.rotate{
+  transform: rotate(180deg);
+  transition: all 0.2s ease;
+}
+.form-control:focus,
+.form-select:focus{box-shadow: none !important; border-color:#ced4da !important;  outline: none;}
+.norotate{transition: all 0.2s ease;}
+.aactive{ color: #4285F4; border-bottom: 2px solid #4285F4; }
+.promotionTabs .nav-tabs .nav-link{border: none; color: #000;}
+.promotionTabs .nav-tabs .nav-link:hover{border-bottom: none !important;}
+.promotionTabs .nav-tabs .nav-link.active{background-color: transparent;}
+
+.ck.ck-editor__main>.ck-editor__editable:not(.ck-focused),
+.ck.ck-editor__editable:not(.ck-editor__nested-editable).ck-focused {
+  min-height: 120px;
+}
+p.error.errcont {position: absolute; bottom: -17px; left: 0; font-size: 12px !important;color: #f00;}
+.Mailchimp{background-color: #F7D91A; color:#000; }
+.Zapier{  background-color: #FF4A00; color:#fff;cursor: pointer !important; }
+.MailerLite{background-color: rgb(8,194,105);color:#fff;}
+.Hubspot{background-color:#F4795B;color:#fff;}
+.ConvertKit{background-color: #F3696E;color:#fff}
+.InfusionSoft{background-color: #64AC42; color:#fff}
+.ConstantContact{background-color: #1753E6; color:#fff}
+.ActiveCampaign{background-color: #3468E0; color:#fff}
+
+.accordion-button:focus, .accordion-item{
+  border: none !important;
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed){
+  box-shadow: none !important;  
+  color: #000;
+  background-color: #deecf9;
+}
+.price_faq button.accordion-button{
+  position: relative;
+}
+.price_faq button.accordion-button:before{
+  font-family: 'FontAwesome';
+  content:"\f068";
+  position: absolute;
+  right: 20px;
+  top: 17px;
+}
+.price_faq button.accordion-button:after{
+  display: none;
+}
+.price_faq button.accordion-button.collapsed:before{
+  font-family: 'FontAwesome';
+  content:"\f067";
+}
+.settingTabOpen .accordion-collapse.collapse.show{ display: none !important;}
+.searchWrapper {
+  margin: 0px !important;
+  padding: 2px 5px!important;
+  background: #cbdfff;
+  min-height: 30px !important;  
+}
+.optionmultiselect .searchWrapper{
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+.searchWrapper input{line-height: 17px !important;}
+.chip{
+  padding: 4px 6px !important;
+  margin: 2px 3px 1px 0 !important;
+  border-radius: 11px;
+  font-size: 11px !important;
+  line-height: 11px !important;
+}
+
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper{background-color: transparent !important; }
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper.embedForm{max-width: 900px !important;}
+.ml-form-embedContent{display: none;}
+.ml-form-embedBody.ml-form-embedBodyDefault.row-form{padding: 0 12px !important;}
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody form{display: flex;}
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {  
+  width: 20% !important;
+  margin: 0 !important;
+}
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:first-child{
+  height: 43px !important;
+  border-radius: 0 20px 20px 0!important;
+}
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow {
+  margin: 0 0 0 0 !important;
+  width: 50% !important;
+}
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-block-form .ml-field-group {
+  display: inline-block;
+  float: left;
+  width: 100% ;
+}
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-last-item {
+  float: right;
+  display: inline-block;
+}
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-last-item input{
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  border: 1px solid #ffffff8a !important;
+  color: #ffffff8a !important;
+}
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow:first-child input{
+  border-radius: 20px 0 0 20px !important;
+  background-color: transparent !important;
+  border: 1px solid #ffffff8a !important;
+  color: #ffffff8a !important;
+}
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-last-item input::placeholder,
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow:first-child input::placeholder{
+  color: #ffffff62 !important;
+}
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-last-item input:focus,
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow:first-child input:focus{
+  box-shadow: none !important;
+  outline: none !important;
+}
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody, 
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody {
+  padding: 0 12px!important;
+}
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent, 
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent{
+  margin: 0 !important;
+}
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4,
+#mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+  color: #fff !important;
+  font-family: 'Inter' !important;
+}
+
+body.modal-open.tox-dialog__disable-scroll .offcanvas.show {
+    display: none;
+}
+body.modal-open.tox-dialog__disable-scroll .offcanvas.show .tox-silver-sink{
+    display: none;
+}
+body.modal-open.tox-dialog__disable-scroll .tox .tox-dialog-wrap__backdrop{
+    background-color: rgb(255 255 255 / 91%);
+}
+@media screen and (max-width:567px) {
+  #mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody form{display: block;}
+  #mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit {  
+    width: 100% !important;
+  }
+  #mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow {
+    margin: 0 0 0 0 !important;
+    width: 100% !important;
+  }
+  #mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:first-child,
+  #mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow:first-child input,
+  #mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-last-item input{
+    border-radius: 0 4px 4px 0!important;
+  }
+  #mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow input{
+    margin-bottom: 12px !important;
+  }
+  #mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody,
+  #mlb2-3179050.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody {
+    padding: 0 0!important;
+  }
+}

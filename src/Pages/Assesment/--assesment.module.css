@@ -1,0 +1,3018 @@
+body {
+    padding-bottom: 180px;
+}
+
+.assesment_page .breadcrumb {
+    background: #FFFFFF;
+    padding   : 6px 0px;
+    position  : sticky;
+    top       : 0px;
+    z-index   : 9;
+}
+.compareGraph {
+    width: 70%;
+    margin: 50px auto 0px;
+}
+.infoIcon{
+    position: relative;
+    color: #fff;
+    background: #686565;
+    padding: 1px 6px;
+    border-radius: 100%;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    width: 22px;
+    margin: 2px 4px 0px;
+    cursor: pointer;
+}
+
+.breadcrumb ol {
+    margin: 0px;
+}
+
+.imageUploader {
+    position: relative;
+}
+.optionimgupload .loaderIconup{
+    position: absolute;
+    right: 3px ;
+    font-size: 30px;
+    bottom: 4px ;
+    background: rgba(0, 0, 0, .1);
+    color: #483f90;
+    border-radius: 50%;
+    padding: 5px ;
+}
+.loaderIcon {
+    position     : absolute;
+    right        : 0px;
+    font-size    : 32px;
+    bottom       : 3px;
+    background   : rgba(0, 0, 0, .5);
+    color        : #fff;
+    border-radius: 100%;
+    padding      : 3px;
+}
+.loaderIconup{
+    position: absolute;
+    right: -2px;
+    font-size: 95px;
+    bottom: 75px;
+    background: rgba(0, 0, 0, .2);
+    color: #483f90;
+    border-radius: 50%;
+    padding: 30px;
+}
+.breadcrumb ol a {
+    font-style     : normal;
+    font-weight    : normal;
+    font-size      : 16px;
+    line-height    : 19px;
+    color          : #666666;
+    text-decoration: none;
+}
+.backgroundNone{ background: none !important;}
+
+.breadcrumb li.active::before {
+    content: var(--bs-breadcrumb-divider, "|") !important;
+
+}
+
+.breadcrumb li.active a {
+    color: #333333;
+    border: 0px;
+}
+
+.breadcrumb_assesment {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.breadcrumb_assesment .rightBtn .publish {
+    background   : #473E8F;
+    border-radius: 4px;
+    padding      : 9px 16px;
+    color        : #fff;
+    font-size    : 16px;
+    border       : 1px solid #4285F4;
+}
+.breadcrumb_assesment .rightBtn .publish:hover{
+    background: #3c3482;
+}
+.breadcrumb_assesment .rightBtn .publishGreen {
+    background   : #2b7d4f;
+    border-radius: 4px;
+    padding      : 9px 16px;
+    color        : #fff;
+    font-size    : 16px;
+    border       : 1px solid #2b7d4f;
+}
+.breadcrumb_assesment .rightBtn .publishGreen:hover {
+    background: #21603d;
+}
+.breadcrumb_assesment .rightBtn .publishOrange {
+    background   : #efb121;
+    border-radius: 4px;
+    padding      : 9px 16px;
+    color        : #fff;
+    font-size    : 16px;
+    border       : 1px solid #efb121;
+}
+.breadcrumb_assesment .rightBtn .publishOrange:hover{
+    background: #c98e03;
+}
+.breadcrumb_assesment .rightBtn .save {
+    background   : #4285F4;
+    border-radius: 4px;
+    padding      : 9px 16px;
+    color        : #fff;
+    font-size    : 16px;
+    border       : 1px solid #4285F4;
+}
+.breadcrumb_assesment .rightBtn .save:hover {
+    background: #336ccb;
+}
+.breadcrumb_assesment .rightBtn .view {
+    background   : #FFFFFF;
+    border       : 1px solid #4285F4;
+    box-sizing   : border-box;
+    border-radius: 4px;
+    padding      : 9px 16px;
+    font-size    : 16px;
+    color        : #fff;
+
+}
+
+.breadcrumb_assesment .rightBtn button {
+    margin-left: 8px;
+}
+
+.breadcrumb_assesment .rightBtn button img {
+    margin-top: -5px;
+}
+
+
+.body_assesment .leftBar .accordionitem:first-of-type {
+    border-top   : none;
+    border-radius: 0px;
+    box-shadow   : none;
+}
+
+.body_assesment .leftBar .accordionitem h2 {
+    font-style   : normal;
+    font-weight  : 500;
+    font-size    : 16px;
+    line-height  : 19px;
+    color        : #333333;
+    margin-bottom: 0;
+}
+
+
+.body_assesment .leftBar .accordionitem button:focus {
+    background-color: transparent;
+    box-shadow      : none;
+}
+
+.body_assesment .leftBar .accordionitem {
+    border: none;
+
+    border-bottom: 1px solid #ccc;
+}
+
+.body_assesment .leftBar .accordionitem button:not(.collapsed) {
+    background-color: transparent;
+    box-shadow      : none;
+}
+
+.accordionBody {
+    background : rgba(71, 62, 143, 0.14);
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 14px;
+    line-height: 16px;
+
+    color: #333333;
+}
+
+.body_assesment .aside {
+    padding : 0px 0px;
+    position: relative;
+}
+
+.body_assesment .leftBar {
+    position  : sticky;
+    background: #FFFFFF;
+    top       : 56px;
+    left      : 0px;
+    height    : 100%;
+    min-height: 100vh;
+}
+
+.body_assesment .questionSection {
+    margin       : 0px auto;
+    width        : 93%;
+    margin-bottom: 60px;
+}
+
+.questionsetting~.questionSection {
+    width : calc(90% + -50px);
+    margin: 0px;
+}
+
+
+.body_assesment .clientDetails_none {
+    margin       : 0px auto;
+    width        : 70%;
+    margin-bottom: 100px;
+}
+
+.RightSide .pexelsback {
+    width: 100%;
+    max-height: 440px;
+}
+.RightSide {
+    padding-top: 0px;
+    position   : relative;
+    align-items: center;
+    display    : flex;
+    margin-top: 20px;
+    min-height: 440px;
+}
+
+.RightSide .slider_images {
+    position       : absolute;
+    display        : flex;
+    justify-content: space-between;
+    align-items: center;
+    width          : 100%;
+    margin-top     : 35px;
+    padding        : 10px 60px;
+}
+.RightSide .slider_images .left_input {
+    font-style : normal;
+    width      : 48%;
+    display    : flex;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+
+.RightSide .slider_images .left_input input {
+    border    : 4px dashed #ccc;
+    background: none;
+}
+.RightSide .slider_imagesnew {
+    position       : absolute;
+    display        : flex;
+    justify-content: center;
+    align-items: center;
+    width          : 100%;
+    padding        : 10px 60px;
+}
+.RightSide .slider_imagesnew .left_input {
+    font-style : normal;
+    width      : 100%;
+    display    : flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hide {
+    display: none !important;
+}
+
+.mianheadingtopbanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mianheadingtopbanner .leftHeadingtopbanner {
+    font-style : normal;
+    font-weight: bold;
+    font-size  : 30px;
+    line-height: 35px;
+    display    : flex;    
+    align-items: center;
+    color      : #000;
+    background : none;
+    padding    : 0.375rem 0.75rem;
+}
+.mianheadingtopbanner img{
+    max-height: 400px;
+    overflow: hidden;
+    max-width: 60% ;
+}
+.mianheadingnobanner img{display: none;}
+
+.leftHeadingtopbannertitle {
+    font-style : normal;
+    font-weight: bold;
+    font-size  : 30px;
+    line-height: 35px;
+    text-align: center;
+    color      : #000;
+    background : none;
+    padding    : 0.375rem 0.75rem;
+    font-family: 'Roboto';
+}
+
+
+.self_assesment .headingself+.assesmentTitle {
+    display: none;
+}
+
+.self_assesment .headingself {
+    font-style     : normal;
+    font-weight    : 500;
+    font-size      : 26px;
+    line-height    : 30px;
+    display        : flex;
+    align-items    : center;
+    color          : #000;
+    justify-content: center;
+    border         : 4px dashed #ccc;
+    height         : 40px;
+    background     : none;
+    width          : auto;
+    margin         : auto;
+    text-align     : center;
+    padding        : 0px 0px;
+    float          : right;
+    width          : 50%;
+}
+
+.self_assesment .assesmentTitle {
+    font-style     : normal;
+    font-weight    : 500;
+    font-size      : 26px;
+    line-height    : 40px;
+    display        : flex;
+    align-items    : center;
+    color          : #000 !important;
+    justify-content: center;
+    background     : none;
+    margin-bottom  : 30px;
+}
+
+.KnowMore {
+    background   : rgb(66, 133, 244);
+    border-radius  : 4px;
+    font-size      : 15px;
+    color          : #FFFFFF;
+    height         : 40px;
+    padding        : 0px 16px;
+    display        : inline-block;
+    line-height    : 40px;
+    text-decoration: none;
+}
+
+.KnowMore:hover {
+    background: #336ccb;
+    color     : #fff;
+}
+
+.self_left .textareaself {
+    border    : 4px dashed #ccc;
+    background: none;
+    min-height: 200px;
+}
+
+.self_left .textareaself+.assesmentDescprition {
+    display: none;
+}
+
+.self_left .assesmentDescprition {
+    background: none;
+    min-height: 140px;
+    overflow: hidden;
+}
+
+.self_assesment {
+    background: #fff;
+    padding   : 50px 20px 0;
+
+}
+
+.self_content,
+.chartTopContent,
+.chartBelowContent {
+    display        : flex;
+    justify-content: space-between;
+    align-items : center;
+    margin-top     : 40px;
+}
+.chartTopContent{flex-direction: column;}
+.chartTopContent .self_right {
+    order: 1;
+    width: 70%;
+    text-align: center;
+}
+.chartTopContent .self_right img{
+width: 40%;
+}
+.chartTopContent .self_left {
+    order: 2;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.chartBelowContent{flex-direction: column;}
+.chartBelowContent .self_left{
+    width: 70%;
+    margin: 0 auto;
+}
+.chartBelowContent .self_right {
+    width: 70%;
+    text-align: center;
+    margin: 30px auto 0;
+}
+.chartBelowContent .self_right .assesmentTitle{margin-bottom: 20px;}
+.chartBelowContent .self_right img{
+    width: 40%;
+    }
+.self_content .self_right,
+.self_content .self_left {
+    width: 44%;
+}
+
+.self_content .self_left {
+    margin-left  : 70px;
+    padding-right: 25px;
+}
+
+.self_content .self_right {
+    text-align  : center;
+    margin-right: 70px;
+}
+
+.self_right img {
+    width: 80%;
+}
+
+.foterBtn button {
+    background   : #ccc;
+    border-radius: 4px;
+    color        : #000;
+    border-color : #fff;
+    border       : 1px solid #fff;
+    padding      : 9px 16px;
+    font-size    : 15px;
+    font-weight  : 500;
+    margin       : 0px 10px;
+    margin-bottom: 30px;
+    min-width    : 165px;
+}
+
+.foterBtn .score {
+    background   : #ccc;
+    border-radius: 4px;
+    color        : #000;
+    border-color : #fff;
+    border       : 1px solid #fff;
+    padding      : 5px 16px;
+    margin       : 0px 10px;
+    margin-bottom: 30px;
+    width        : auto;
+    display      : inline-block;
+}
+
+.foterBtn .score+.assesmentbutton {
+    display: none;
+}
+
+.foterBtn .result {
+    background   : #ccc;
+    border-radius: 4px;
+    color        : #000;
+    border-color : #fff;
+    border       : 1px solid #fff;
+    padding      : 5px 16px;
+    margin       : 0px 10px;
+    margin-bottom: 30px;
+    width        : auto;
+    display      : inline-block;
+}
+
+.foterBtn .result+.assesmentbuttonresult {
+    display: none;
+}
+
+.foterBtn {
+    width     : 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.self_assesment .textareaself:focus,
+.body_assesment .userdetail:focus,
+.body_assesment .nameUser:focus,
+.body_assesment .formControl:focus,
+.body_assesment .headingself:focus {
+    box-shadow  : none;
+    outline     : none;
+    background  : none;
+    border-color: #000 !important;
+}
+
+
+.accordionBody h5 {
+    font-style   : normal;
+    font-weight  : normal;
+    font-size    : 14px;
+    line-height  : 16px;
+    color        : #333333;
+    border-bottom: 1px solid #ccc;
+    padding      : 16px 20px;
+    margin-bottom: 0px;
+    background   : rgb(71 62 143 / 2%);
+    position: relative;
+}
+.accordionBody h5 .questionhover{display: none;}
+.accordionBody h5:hover .questionhover{
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 35px;
+    background: rgba(0, 0, 0, .8);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 1;
+    font-size: 12px;
+    line-height: 20px;
+    font-family: 'roboto';
+    max-width: 300px;
+}
+
+.accordionBody h5.active {
+    /* background: rgba(71, 62, 143, 0.2); */
+    background: rgb(66 133 244);
+    color: #fff;
+}
+
+.accordionBody h5 span img {
+    padding-right: 10px;
+}
+
+.accordionitem .accordionBody {
+    padding: 0px;
+}
+
+p.updatedquestion_successfully {
+    color      : #22970d;
+    font-weight: bold;
+    text-align : center;
+}
+
+.modelbody_deletepopup {
+    padding   : 40px 0px;
+    text-align: center !important;
+}
+
+.modelbody_deletepopup Button {
+    margin: 0px 5px;
+}
+
+
+
+.rightsideassesmentimage {
+    margin-top     : -55px;
+    border-radius  : 50%;
+    box-shadow     : 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    width          : 90px;
+    height         : 90px;
+    background     : #fff;
+    align-items    : center;
+    display        : flex;
+    justify-content: center;
+    cursor         : pointer;
+    overflow: hidden;
+}
+
+.rightsideassesmentimage img {
+    width: 100%;
+}
+
+.headingrightbox {
+    font-weight: 500;
+    font-size  : 24px;
+    line-height: 24px;
+    margin-left: 15px;
+    margin-top : -5px;
+}
+
+.authorProfileBottom {
+    padding: 100px 0px;
+    background-color: #19324B;
+}
+.authorProfileBottom .slideRight{
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 0 !important;
+}
+
+.slideRight {
+    width        : 48%;
+    background   : #fff;
+    padding      : 20px !important;
+    color        : #000;
+    border-radius: 8px;
+    /* margin-top: 50px !important; */
+}
+.footerimagesection .slideRight {
+    margin-top: 50px !important;
+}
+.slideRight span {
+    display: flex;
+}
+
+.slideRight p {
+    margin: 16px 0;
+}
+
+
+.slideRight .nameUser {
+    border    : 4px dashed #fff;
+    background: none;
+}
+
+.slideRight .userdetail {
+    margin-top   : 20px;
+    border       : 4px dashed #fff;
+    background   : none;
+    margin-bottom: 20px;
+}
+
+.slideRight button {
+    background   : #fff;
+    border-radius: 4px;
+    color        : #000;
+    border-color : #fff;
+    border       : 1px solid #fff;
+    padding      : 5px 16px;
+}
+
+.slideRight .edit_icon {
+    margin-top     : -55px;
+    border-radius  : 50%;
+    box-shadow     : 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    width          : 90px;
+    height         : 90px;
+    background     : #fff;
+    align-items    : center;
+    display        : flex;
+    justify-content: center;
+    cursor         : pointer;
+}
+
+.slideRight .edit_icon img {
+    display: none;
+}
+
+.slideRight .edit_icon:hover img {
+    width          : 38px;
+    display        : flex;
+    text-align     : center;
+    justify-content: center;
+}
+
+.banneredit {
+    position: absolute;
+    top     : 40px;
+    left    : 12px;
+    cursor  : pointer;
+}
+
+.colorPikerBTN {
+    position: relative;
+}
+
+.colorPikerBTN .swatch {
+    margin: 0px 10px 0px 0px;
+}
+
+.btnPicker {
+    top     : 40px;
+    position: absolute;
+}
+
+.textstylings {
+    margin-top     : 16px;
+    display        : flex;
+    justify-content: space-between;
+    background     : #fff;
+    padding        : 15px;
+    align-items    : center;
+    align-content  : center;
+    height         : 64px;
+    display: none;
+}
+
+.textstylings .color_piker img {
+    cursor        : pointer;
+    width         : 24px;
+    padding-bottom: 3px;
+}
+
+.color_piker {
+    display: flex;
+}
+
+.color_piker .circlePicker {
+    display     : flex !important;
+    flex-wrap   : nowrap !important;
+    overflow    : hidden;
+    padding-top : 3px;
+    padding-left: 10px;
+}
+
+.colorPikerBTN {
+    /* border-right: 1px solid #ccc; */
+    padding-right: 10px;
+    display      : flex;
+}
+
+.font_picker {
+    display    : flex;
+    padding    : 0px;
+    align-items: center;
+}
+
+.sktechPicker {
+    display: none;
+}
+
+.font_picker h2 {
+    color        : #473E8F;
+    padding-right: 10px;
+    border-right : 1px solid #ccc;
+    margin-right : 10px;
+    margin-bottom: 0px;
+}
+
+.font_picker .selectfont {
+    border     : none;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 18px;
+    line-height: 16px;
+    color      : #333333;
+    box-shadow : none;
+}
+
+
+.font_picker .selectfont:focus {
+    box-shadow: none;
+    outline   : none;
+
+}
+
+
+.font_color p {
+    margin-bottom: 0px;
+}
+
+.question {
+    background: #fff;
+    /* display   : flex; */
+    margin-top: 20px;
+}
+
+.right_partquestion {
+    position: relative;
+    width   : 100%;
+}
+
+.right_partquestion h2 {
+    font-style   : normal;
+    font-weight  : normal;
+    font-size    : 16px;
+    line-height  : 19px;
+    color        : #333333;
+    border-bottom: 1px solid #ccc;
+    padding      : 15px;
+}
+
+.right_partquestion h3 {
+    padding      : 32px 15px 0px;
+    font-style   : normal;
+    font-weight  : 500;
+    font-size    : 16px;
+    line-height  : 20px;
+    color        : #000000;
+    margin-bottom: 6px;
+}
+.right_partquestion textarea::placeholder{font-weight: 400; font-family: 'Roboto'; color: #212529; font-size: 15px;}
+.onpagetext .dropdown_seo {
+    display   : flex;
+    list-style: none;
+    padding   : 0px;
+    margin-top: -30px;
+}
+.noquestion_msg{
+    margin: 30px 20px;
+}
+.noquestion_msg p{
+    text-align: center; 
+    font-size: 20px;
+    border: 1px dashed #ccc;
+    background: #fff;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.onpagetext .dropdown_seo p {
+    font-style   : normal;
+    font-weight  : normal;
+    font-size    : 13px;
+    line-height  : 18px;
+    color        : #000000;
+    background   : #CBDFFF;
+    border-radius: 4px;
+    padding      : 0px 8px;
+    margin-left  : 10px;
+    height       : 30px;
+    line-height  : 30px;
+    cursor       : pointer;
+    white-space: nowrap;
+}
+/* .onpagetext .dropdown_seo p .feedback_span{    
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 4px 8px;
+    cursor: pointer;
+} */
+.onpagetext .dropdown_seo p svg{
+    margin-left: 5px;
+    font-size: 9px;
+    color: #5534e6;
+}
+
+.onpagetext .dropdown_seo p:hover,
+.onpagetext .dropdown_seo p.active {
+    background-color: #473E8F;
+    color           : #fff;
+}
+.onpagetext .dropdown_seo p:hover svg,
+.onpagetext .dropdown_seo p.active svg{
+    color: #fff;
+} 
+
+.onpagetext .dropdown_seo .question_type .selectfont {
+    font-style      : normal;
+    font-weight     : normal;
+    font-size       : 13px;
+    color           : #000000;
+    background-color: #CBDFFF;
+    height          : 30px;
+    line-height     : 18px;
+    padding         : 0px 33px 0px 8px;
+}
+
+.onpagetext .dropdown_seo .question_type .selectfont:focus {
+    /* background: #473E8F !important;
+    color: #fff !important; */
+    box-shadow: none;
+}
+
+.question_type {
+    margin-left: 10px;
+    min-width: 100px;
+}
+
+.onpagetext {
+    background: #FFFFFF;
+    border    : 1px dashed #CCCCCC;
+    box-sizing: border-box;
+    margin    : 20px 15px;
+    padding   : 20px 0px 0px;
+}
+.promotionSection{
+    position: relative;
+    margin: 50px;
+}
+.bgdefaultgraycolor {
+    max-height: 380px;
+    overflow  : hidden;
+    width: 100%;
+}
+.redeemBtn a{
+    text-transform: uppercase;
+    border-color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 40px;
+    margin: 20px 0px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    min-width: 161px;
+    background: rgb(66, 133, 244);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: 24px;
+    display: inline-block;
+    font-family: 'Roboto';
+}
+.settingTabOpen{position: relative;}
+.checkboxQuestion {
+    display: grid;
+    padding: 0px 10px;
+    margin-top: 30px;
+}
+
+.checkboxQuestion .questionradio {
+    /* display: flex; */
+    margin-bottom: 8px;
+    padding      : 5px 5px 5px 8px;
+    position: relative;
+   
+}
+.checkboxQuestion .questionradio .questionIconHead{
+    right: 8px;    
+    position: absolute;
+    top: 4px;
+    margin-top: 0;
+    margin-right: 0;
+}
+.checkboxQuestion .questionradio .questionradiocheck{
+    display: flex;
+    align-items: flex-start;
+}
+.paginationQuestion {
+    float       : right;
+    margin-right: 15px;
+}
+
+.paginationQuestion ul {
+    display        : flex;
+    list-style     : none;
+    justify-content: flex-end;
+}
+
+.paginationQuestion ul li {
+    font-style     : normal;
+    font-weight    : 500;
+    font-size      : 14px;
+    line-height    : 20px;
+    color          : #FFFFFF;
+    text-decoration: none;
+}
+
+.paginationQuestion ul li a {
+    font-style      : normal;
+    font-weight     : 500;
+    font-size       : 14px;
+    line-height     : 20px;
+    color           : #FFFFFF;
+    text-decoration : none;
+    padding         : 8px 15px;
+    background-color: #f00;
+    border-radius   : 30px;
+    margin-left     : 10px;
+}
+
+.paginationQuestion ul li a:hover {
+    background-color: #4285f4;
+    color           : #fff;
+}
+
+.onpagetext .input input:focus {
+    box-shadow: none;
+    outline   : none;
+}
+
+
+.paginationQuestion .pagination {
+    padding-left: 10px;
+}
+
+.coverColor {
+    position: absolute;
+    z-index : 2
+}
+
+.colorPickerPover {
+    position: fixed;
+    top     : 0px;
+    right   : 0px;
+    bottom  : 0px;
+    left    : 0px;
+}
+
+.questionsetting {
+    background: #fff;
+    position  : absolute;
+    right     : 0px;
+    top       : 0px;
+    padding   : 15px;
+    height    : 100%;
+}
+
+
+.questionsetting h2 {
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 14px;
+    line-height: 16px;
+    color      : #000000;
+}
+
+
+.questionsetting .questionradio {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.questionsetting .questionradio:hover {
+    background   : rgba(66, 133, 244, 0.16);
+    border-radius: 4px;
+}
+
+.questionsetting .input {
+    background   : #473E8F;
+    color        : #fff;
+    width        : 50px;
+    padding-left : 30px;
+    border-radius: 4px;
+    margin-right : 50px;
+}
+
+.row_assesment {
+    position: relative;
+}
+
+.questionsetting a {
+    color: #000;
+}
+
+.questionsetting .questionradio input:focus {
+    box-shadow: none;
+    outline   : none;
+}
+
+.content_radio {
+    display        : flex;
+    align-items    : center;
+    margin-bottom  : 15px;
+    justify-content: space-between;
+}
+
+
+.content_radio button {
+    background   : #FFFFFF;
+    border       : 1px solid #4285F4;
+    box-sizing   : border-box;
+    border-radius: 4px;
+    padding      : 8px 14px;
+}
+.titlePoints{
+    margin-left: 5px;
+}
+
+.accordionBody h5.addnewsection {
+    text-align: center;
+    background: #fff;
+    border-radius: 4px;
+    padding: 12px 16px;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.accordionBody .addNewQuestion{
+    text-align: center;
+    background: #4285F4;
+    border-radius: 4px;
+    padding: 12px 16px;
+    color: #fff;
+    border: 1px solid #4285F4;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 7px auto 7px;
+    /* max-width: 130px; */
+    display: inline-block;
+}
+.accordionBody .addNewQuestion:hover{
+    background: #336ccb !important;
+    border-color: #3172df;
+}
+
+.promotionImage{
+    max-width: 100%;
+}
+.addOptions {
+    background   : #4285F4;
+    border-radius: 4px;
+    padding      : 9px 16px;
+    color        : #fff;
+    min-width    : 120px;
+    font-size    : 15px;
+    margin       : auto;
+    border       : 1px solid #4285F4;
+}
+
+.left_partquestion .deletImage {
+    position       : absolute;
+    top            : 6px;
+    right          : 6px;
+    background     : #FFFFFF;
+    border         : 1px solid #CCCCCC;
+    box-sizing     : border-box;
+    width          : 28px;
+    height         : 28px;
+    border-radius  : 30px;
+    padding        : 1px 6px;
+    font-size      : 12px;
+    align-items    : center;
+    display        : flex;
+    justify-content: center;
+    color          : #FE3838;
+    display        : none;
+    padding        : 4px 8px;
+    cursor         : pointer;
+}
+.editIconbox{
+    position       : absolute;
+    top            : 6px;
+    right          : 40px;
+    width          : 28px;
+    height         : 28px;
+    border-radius  : 30px;
+    background     : transparent;
+    /* overflow: hidden; */
+    cursor         : pointer;
+}
+.left_partquestion .editImage {  
+    border         : 1px solid #CCCCCC;
+    background     : #FFFFFF;
+    width          : 28px;
+    height         : 28px;
+    border-radius  : 30px;
+    box-sizing     : border-box;
+    display        : none;    
+    cursor         : pointer; 
+    font-size      : 12px;
+    line-height: 18px;
+    align-items    : center;
+    color          : #5534e6;
+    padding        : 4px 7px;
+}
+.left_partquestion .editImagechoose{
+position: relative;
+top: -28px;
+opacity: 1;
+cursor : pointer;
+}
+.left_partquestion .editImagechoose .imageUploader input{
+    width          : 28px;
+    height         : 28px;
+    border-radius  : 30px;
+    opacity: 0;
+}
+.left_partquestion .editImagechoose label{display: none;}
+.left_partquestion .editImagechoose .loaderIconup{
+    position: absolute;
+    right: 67px;
+    font-size: 95px;
+    bottom: -120px;
+    background: rgba(0, 0, 0, .5);
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 30px;
+}
+.left_partquestion {
+    position: relative;
+    height: fit-content;
+    max-width: 350px;
+    min-width: 300px;
+    padding: 5px;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+}
+.left_partquestion img{width: 100%;max-width:100%;}
+
+.left_partquestion:hover .deletImage,
+.left_partquestion:hover .editIconbox,
+.left_partquestion:hover .editImage {
+    display: inline-block;
+}
+
+.questionIconHead {
+    display: block; 
+    margin-top: 4px;
+    float: right;
+    margin-right: 20px;
+}
+
+.editDeleticon {
+    text-align   : right;
+    display: flex;
+    align-items: center;
+    /* margin-top: -2px; */
+}
+
+.questionradio {
+    background: #F4F6F8;
+    border    : 1px solid #ccc;
+
+}
+.questionradio .input{margin-right: 0.5rem;}
+.questionradio p {
+    width        : 65%;
+    padding-right: 10px;
+    margin-bottom: 0px;
+    display      : inline-block;
+    text-align: left;
+}
+
+.questionradio .editDeleticon a {
+    text-decoration: none;
+}
+
+.questionradio .editDeleticon .deletIcon {
+    background     : #FFFFFF;
+    border         : 1px solid #CCCCCC;
+    box-sizing     : border-box;
+    width          : 25px;
+    height         : 25px;
+    border-radius  : 30px;
+    font-size      : 10px;
+    color          : #FE3838;
+    cursor         : pointer;
+    padding        : 4px;
+    margin-left    : 5px;
+    display        : inline-flex;
+    align-items    : center;
+    justify-content: center;
+}
+.updatecloseIcon{
+    background     : #FFFFFF;
+    border         : 1px solid #CCCCCC;
+    box-sizing     : border-box;
+    width          : 25px;
+    height         : 25px;
+    border-radius  : 30px;
+    font-size      : 12px;
+    color          : #FE3838;
+    cursor         : pointer;
+    padding        : 4px;
+    margin-left    : 5px;
+    display        : inline-flex;
+    align-items    : center;
+    justify-content: center;
+    margin-left: 5px;
+}
+.updateshowIcon{
+    background     : #FFFFFF;
+    border         : 1px solid #d9dbdd;
+    box-sizing     : border-box;
+    width          : 25px;
+    height         : 25px;
+    border-radius  : 30px;
+    font-size      : 12px;
+    color          : #22970d;
+    cursor         : pointer;
+    padding        : 4px;
+    display        : inline-flex;
+    align-items    : center;
+    margin-left    : 5px;
+    justify-content: center;
+}
+.editiconsoptions {
+    background     : #FFFFFF;
+    border         : 1px solid #d9dbdd;
+    box-sizing     : border-box;
+    width          : 25px;
+    height         : 25px;
+    border-radius  : 30px;
+    font-size      : 12px;
+    color          : #473e8f;
+    cursor         : pointer;
+    padding        : 4px;
+    display        : inline-flex;
+    align-items    : center;
+    margin-left    : 5px;
+    justify-content: center;
+}
+
+.showsubOption {
+    height  : 0px;
+    overflow: hidden;
+}
+
+.hidesubOption {
+    padding   : 20px 20px 0;
+    background: #fff;
+    margin-top: 8px;
+}
+
+.hidesubOption .setinputwidth1 {
+   text-align: left;
+    margin-bottom: 16px;
+}
+
+.hidesubOption .setinputwidth1:last-child {
+    margin-bottom: 0;
+}
+
+.hidesubOption input {
+    /* height     : 37px; */
+    line-height: 37px !important;
+    margin-top: 0 !important;
+}
+.hidesubOption label {
+    min-width    : 160px;
+    margin-bottom: 8px;
+}
+
+.hidesubOption select {
+    height     : 37px;
+    line-height: 20px;
+}
+
+.hidesubOption .hideoptionbtn button {
+    background   : #4285F4;
+    border-radius: 4px;
+    padding      : 5px 10px;
+    color        : #fff;
+    border       : 1px solid #4285F4;
+    font-size    : 14px;
+    margin-bottom: 5px;
+}
+.hidesubOption .hideoptionbtn button:hover{
+    background: #336ccb;
+    border-color: #3172df;
+}
+
+.hidesubOption .hideoptionbtn {
+    border-top : 1px solid #e5e5e5;
+    padding-top: 8px;
+    text-align : right;
+}
+
+
+
+.slidersection .countslider {
+    width: 50%;
+}
+
+.slidersection .countslider label {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 14px;
+    line-height: 16px;
+    color      : #666666;
+}
+
+.slidersection .slidercheck {
+    display    : flex;
+    align-items: baseline;
+    margin-top : 10px;
+}
+
+.slidersection .slidercheck .form-check-inline {
+    margin-right: 3px;
+}
+
+.form-check label {
+    font-size: 20px;
+}
+
+.slidersection .slidercheck p {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 14px;
+    line-height: 16px;
+    color      : #666666;
+    margin     : 0;
+}
+
+.slidersection .countslider .selectfont {
+    width: 50%;
+}
+
+.slidersection {
+    padding: 0px 10px;
+    margin-top: 30px;
+}
+
+.slidersection .sliderr ul {
+    list-style-type: none;
+    position       : relative;
+    margin-bottom  : 20px;
+    padding        : 0 10px;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    z-index: 0;
+}
+
+.slidersection .sliderr ul:before {
+    content   : ' ';
+    background: #E9E9E9;
+    display   : inline-block;
+    position  : absolute;
+    left      : 0;
+    width     : 99%;
+    height    : 5px;
+    z-index   : 9;
+}
+.slidersection .sliderr .morequestionss:before{content: none}
+.slidersection .sliderr .morequestionss{
+    justify-content: initial;
+    padding: 0;
+}
+.slidersection .sliderr ul li {
+    list-style-type: none;
+    position       : relative;
+}
+
+.slidersection .sliderr ul li:before {
+    content      : ' ';
+    background   : #C4C4C4;
+    display      : inline-block;
+    position     : absolute;
+    border-radius: 50%;
+    left         : -10px;
+    width        : 14px;
+    height       : 14px;
+    z-index      : 9;
+    top          : -7px;
+}
+.slidersection .sliderr .morequestionss li:before{content: none}
+.slidersection .sliderr .morequestionss li{
+    position: relative;
+    float: left;
+    padding: 20px 0px;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    border-left: none;
+    margin-bottom: 0px;
+}
+.slidersection .sliderr .morequestionss li:first-child{
+    border-left: 1px solid #ccc;
+}
+.slidersection .sliderQuestion .lessmore {
+    font-family  : Roboto;
+    font-style   : normal;
+    font-weight  : normal;
+    font-size    : 14px;
+    line-height  : 20px;
+    color        : #000000;
+    text-align   : center;
+    margin-top   : 16px;
+    margin-bottom: 8px;
+}
+
+.slidersection .sliderQuestion .lessandmoretext {
+    font-family  : Roboto;
+    font-style   : normal;
+    font-weight  : normal;
+    font-size    : 14px;
+    line-height  : 20px;
+    color        : #000000;
+    text-align   : center;
+    width        : 100%;
+    margin-bottom: 10px;
+    border       : 0px none;
+}
+
+.slidersection .sliderQuestion .lessandmoretext:focus {
+    outline: none;
+    border : 0px none;
+}
+
+.lessandmoretext::placeholder {
+    color  : #000000;
+    opacity: 1;
+}
+
+.lessandmoretext:-ms-input-placeholder {
+    color: #000000;
+}
+
+.lessandmoretext::-ms-input-placeholder {
+    color: #000000;
+}
+
+.slidersection .sliderr ul .blue_bg:before {
+    background: #4285F4;
+}
+
+.imageSection {
+    display      : flex;
+    padding      : 0px 10px;
+    /* margin-top: 16px; */
+}
+
+.imageSection .questionimage {
+    position : relative;
+    min-width: 189px;
+}
+
+.imageSection .imageQuestions {
+    margin-right: 15px;
+}
+
+.imageSection .imageQuestions:last-child {
+    margin-right: 0;
+}
+
+.imageSection .questionimage img {
+    width: 100%;
+}
+
+.imageSection .imageQuestions p {
+    margin-top : 8px;
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 14px;
+    line-height: 20px;
+    color      : #000000;
+}
+
+.imageSection .questionimage .editDeleticon1 .deletIcon {
+    background     : #FFFFFF;
+    border         : 1px solid #CCCCCC;
+    box-sizing     : border-box;
+    width          : 25px;
+    height         : 25px;
+    border-radius  : 30px;
+    font-size      : 12px;
+    color          : #FE3838;
+    cursor         : pointer;
+    padding        : 4px;
+    display        : inline-flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.imageSection .questionimage .editDeleticon1 {
+    position: absolute;
+    top     : -12px;
+    left    : 43%;
+    display : none;
+}
+
+.imageSection .questionimage:hover .editDeleticon1 {
+    display: block;
+}
+
+.accordionBody1 {
+    font-style   : normal;
+    font-weight  : normal;
+    font-size    : 14px;
+    line-height  : 16px;
+    color        : #333333;
+    margin-bottom: 0px;
+    background   : #e2e1ed;
+}
+
+.accordionBody1 input::placeholder {
+    font-size  : 16px;
+    line-height: 16px;
+}
+
+.accordionBody1 input,
+.accordionBody1 select {
+    font-size: 16px !important;
+}
+
+.accordionBody1 .accordionskybtns {
+    background     : #4285F4 !important;
+    border-radius  : 4px !important;
+    padding        : 10px 16px !important;
+    color          : #fff;
+    font-family    : Roboto;
+    font-style     : normal;
+    font-weight    : 500 !important;
+    font-size      : 15px !important;
+    line-height    : 18px !important;
+    text-decoration: none;
+    display        : inline-block;
+    border         : 1px solid #4285F4 !important;
+    margin-right   : 16px;
+    cursor         : pointer;
+}
+
+.accordionBody1 .optionsettings {
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    padding   : 20px 0 0px;
+    position  : relative
+}
+
+.accordionBody1 .optionsettings h5 {
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 16px;
+    line-height: 19px;
+    color      : #333333;
+    position   : absolute;
+    top        : -12px;
+    background : #e2e1ed;
+    padding    : 0 5px 0 0;
+}
+
+.accordionBody1 .optionsettings .inlineradio {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+    cursor         : pointer;
+}
+
+.accordionBody1 .optionsettings .inlineradio label {
+    cursor: pointer;
+}
+
+.accordionBody1 .inlineradio {
+    display        : flex;
+    align-items    : center;
+    justify-content: space-between;
+}
+
+.accordionBody1 label {
+    font-size  : 16px !important;
+    line-height: 20px !important;
+    
+}
+
+
+.accordionBody1 .optionsettings .inlineradio label {
+    margin-top : 3px;
+    font-size  : 16px;
+    line-height: 24px;
+}
+
+.accordionBody .accordionBodybtn {
+    background     : #fff;
+    padding        : 16px;
+    display        : flex;
+    justify-content: flex-start;
+}
+
+.accordionBody .accordionBodybtn .accordionbtns {
+    padding     : 9px 41px;
+    border      : 1px solid #ccc;
+    font-family : Roboto;
+    font-style  : normal;
+    font-weight : 500;
+    font-size   : 15px;
+    line-height : 18px;
+    display     : flex;
+    align-items : center;
+    text-align  : center;
+    color       : #4285F4;
+    margin-right: 8px;
+    cursor      : pointer;
+}
+
+
+.scorecanvas {
+    width: 700px !important;
+  
+}
+/* .scoringBodybtn{
+    width: 120px;
+} */
+.scorecanvas .scorecanvasheader {
+    padding: 20px 20px 8px 20px;
+}
+
+.scorecanvas .scorecanvasttl {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 20px;
+    line-height: 18px;
+    display    : flex;
+    align-items: center;
+    color      : #000000;
+}
+
+.scorecanvas .scoresubhead {
+    padding-left  : 20px;
+    border-bottom : 1px solid #ccc;
+    margin        : 0;
+    padding-bottom: 8px;
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 16px;
+    line-height   : 24px;
+    display       : flex;
+    align-items   : center;
+    color         : #000000;
+}
+
+.scorecanvas .canvasscoringbody {
+    padding      : 20px;
+    overflow     : scroll;
+    border-bottom: 1px solid #ccc;
+}
+
+.scorecanvas .canvasscoringbody::-webkit-scrollbar {
+    width : 4px;
+    height: 4px;
+}
+
+.scorecanvas .canvasscoringbody::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.scorecanvas .canvasscoringbody::-webkit-scrollbar-thumb {
+    background: #473E8F;
+}
+
+.scorecanvas .canvasscoringbody::-webkit-scrollbar-thumb:hover {
+    background: #473E8F;
+}
+
+
+.scorecanvas .canvasscoringbody .scoringcheckbox {
+    padding      : 16px;
+    background   : #F4F6F8;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.scorecanvas .canvasscoringbody .scoringcheckbox .checkboxquestion {
+    font-family  : Roboto;
+    font-style   : normal;
+    font-weight  : 500;
+    font-size    : 16px;
+    line-height  : 18px;
+    display      : flex;
+    align-items  : center;
+    color        : #333333;
+    margin-bottom: 4px;
+}
+
+.badge {
+    border-radius: 20px;
+    padding      : 0 6px;
+    background   : #4285F461;
+    border       : 1px solid #4285F4;
+    font-family  : Roboto;
+    font-style   : normal;
+    font-weight  : normal;
+    font-size    : 12px;
+    line-height  : 20px;
+}
+
+.purplebadge {
+    background   : #473E8F61;
+    border       : 1px solid #473E8F;
+    border-radius: 20px;
+    padding      : 0 6px;
+    font-family  : Roboto;
+    font-style   : normal;
+    font-weight  : normal;
+    font-size    : 12px;
+    line-height  : 20px;
+    margin-left  : 8px;
+}
+
+.scorecanvas .scoringbtns {
+    font-family: Roboto;
+    font-style : normal;
+    padding    : 9px 16px;
+    font-weight: 500 !important;
+    font-size  : 15px !important;
+    line-height: 18px !important;
+}
+
+.scorecanvas .questionsbox {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : baseline;
+    margin-bottom: 8px;
+}
+
+.scorecanvas .scoredrop {
+    min-width: 100px
+}
+
+.scorecanvas .Imageboxgroup {
+    display   : flex;
+    margin-top: 16px;
+}
+
+.scorecanvas .Imageboxgroup .Imagebox {
+    margin-right: 16px;
+}
+
+.scorecanvas .Imageboxgroup .scoredrop {
+    margin-top: 8px;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.scorecanvas .bgwhitebtn {
+    background  : #fff !important;
+    color       : #4285F4 !important;
+    border      : 1px solid #ccc !important;
+    padding     : 9px 16px;
+    font-weight : 500 !important;
+    font-size   : 15px !important;
+    line-height : 18px !important;
+    margin-right: 8px;
+}
+
+.bgwupdatebtn {
+    background : #4285F4 !important;
+    color      : #fff !important;
+    border     : 1px solid #4285F4 !important;
+    padding    : 5px 10px !important;
+    font-weight: 500 !important;
+    font-size  : 12px !important;
+    line-height: 15px !important;
+}
+
+.scorecanvas .bgredbtn {
+    background : #fff !important;
+    color      : #EB5757 !important;
+    border     : 1px solid #ccc !important;
+    padding    : 9px 16px;
+    font-weight: 500 !important;
+    font-size  : 15px !important;
+    line-height: 18px !important;
+}
+
+.dotquestionul {
+    list-style-type: none;
+    position       : relative;
+    padding        : 0;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    margin-bottom  : 0;
+}
+
+.dotquestionul li {
+    position       : relative;
+    list-style-type: none;
+    width          : 14px;
+    height         : 14px;
+    background     : #C4C4C4;
+    display        : inline-block;
+    border-radius  : 50%;
+    margin-right   : 16px;
+    margin-top     : 5px;
+}
+
+.dotquestionul .blue_bg {
+    background: #4285F4;
+}
+
+.questionsbox1 {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    margin-bottom  : 10px;
+    margin-top     : 10px;
+}
+
+.scoringBodybtn {
+    padding   : 10px 20px;
+    text-align: right;
+
+}
+
+.scorefeedbackheader {
+    padding      : 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.scorefeedbackheader .feedbackcanvasttl {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 20px;
+    line-height: 18px;
+    display    : flex;
+    align-items: center;
+    color      : #000000;
+    width: 100%;
+}
+
+.canvasfeedbackbody {
+    padding      : 0 20px;
+    overflow-y   : scroll;
+    border-bottom: 1px solid #ccc;
+}
+
+.scorecanvas .canvasfeedbackbody::-webkit-scrollbar {
+    width: 1px;
+    height: 0px;
+}
+
+.scorecanvas .canvasfeedbackbody::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.scorecanvas .canvasfeedbackbody::-webkit-scrollbar-thumb {
+    background: #473E8F;
+}
+
+.scorecanvas .canvasfeedbackbody::-webkit-scrollbar-thumb:hover {
+    background: #473E8F;
+}
+
+.feedbackinnerdata .feedbackboxquestion {
+    font-family  : Roboto;
+    font-style   : normal;
+    font-weight  : 500;
+    font-size    : 16px;
+    line-height  : 18px;
+    color        : #333333;
+    margin-bottom: 16px;
+}
+
+.feedbackinnerdata .inputrow {
+    margin-bottom: 32px;
+}
+
+.feedbackinnerdata .inputinner {
+    display        : flex;
+    justify-content: space-between;
+    margin-bottom  : 20px;
+}
+
+.feedbackinnerdata .inputinner .setinputwidth {
+    width: 49%;
+}
+
+.feedbackupdatebox {
+    padding      : 16px;
+    background   : #F4F6F8;
+    margin-bottom: 16px;
+}
+
+.feedbackupdatebox .boxhead {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    margin-bottom  : 8px;
+}
+
+.feedbackupdatebox .boxhead .updatelevel {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 16px;
+    line-height: 20px;
+    color      : #000000;
+    margin     : 0;
+}
+
+.feedbackupdatebox .boxhead .updatetime {
+    font-family: Roboto;
+    font-style : italic;
+    font-weight: normal;
+    font-size  : 14px;
+    line-height: 20px;
+    color      : #333333;
+    margin     : 0;
+}
+
+.feedbackupdatebox .boxcontent {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+}
+
+.feedbackupdatebox .boxcontent .contentlevel {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 14px;
+    line-height: 20px;
+    color      : #000000;
+    margin     : 0;
+    width: 70%;
+}
+
+.question_maping {
+    font-style   : normal;
+    font-weight  : normal;
+    font-size    : 13px;
+    color        : #000000;
+    /* background   : #CBDFFF; */
+    border-radius: 4px;
+    padding      : 0px;
+    margin-left  : 10px;
+    min-height       : 30px;
+    line-height  : 15px !important;
+    cursor       : pointer;
+    /* border: 1px solid #ccc; */
+}
+.question_maping .multiSelectContainer{
+    height: 30px;
+}
+.question_maping .multiSelectContainer input {
+    margin-top: 0 !important;
+    line-height: 24px;
+}
+
+.multiSelectContainer input::placeholder {
+    color: #000 !important;
+}
+
+
+
+.questisson_maping {
+    color: #000;
+}
+
+.colorPellete {
+    display      : inline-block;
+    background   : transparent;
+    width        : 30px;
+    height       : 30px;
+    margin-right : 0px;
+    margin-bottom: 14px;
+    transform    : scale(1);
+    transition   : transform 100ms ease 0s;
+    position     : absolute;
+    border-radius: 50px;
+    box-shadow   : rgb(0 0 0 / 10%) 0px 0px 0px 1px;
+    padding      : 5px;
+}
+
+.imagesetColorpellete {
+    margin-left: 3px;
+    margin-top : 3px;
+}
+
+.imageiconpellete {
+    border-right : 1px solid #ccc;
+    padding-right: 10px;
+    margin-right : 10px;
+}
+
+/* ---------scoring1 canvas---------- */
+.scorecanvas.scorecanvas1 .questionsbox {
+    display      : block;
+    margin-bottom: 16px;
+    margin-top   : 16px;
+}
+
+.scorecanvas.scorecanvas1 .questionsbox:last-child {
+    margin-bottom: 0;
+}
+
+.scorecanvas.scorecanvas1 .questionsbox p {
+    margin-bottom: 8px;
+}
+
+
+
+.scorecanvas.scorecanvas1 .Imageboxgroup {
+    display: block;
+}
+
+.scorecanvas.scorecanvas1 .Imageboxgroup .Imagebox {
+    display      : flex;
+    margin-right : 0;
+    align-items  : center;
+    margin-bottom: 16px;
+}
+
+.scorecanvas.scorecanvas1 .Imageboxgroup .Imagebox:last-child {
+    margin-bottom: 0;
+}
+
+.scorecanvas.scorecanvas1 .Imageboxgroup .scoredrop {
+    margin-top : 0;
+    width      : 100%;
+    margin-left: 15px;
+}
+
+.scorecanvas.scorecanvas1 .scoredrop1 {
+    width      : 100%;
+    margin-left: 30px;
+}
+
+.inputquestionheadingBox {
+    border-bottom  : 1px solid #ccc;
+    display        : flex;
+    padding        : 15px;
+    justify-content: space-between;
+    height: 55px;
+}
+.questiondatabox{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.inputquestionheading {
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 16px;
+    line-height: 19px;
+    color      : #333333;
+    border     : 0px none;
+    width      : 100%;
+}
+
+.inputquestionsubheading {
+    padding      : 0px 15px;
+    font-style   : normal;
+    font-weight  : 400;
+    font-size    : 16px;
+    line-height  : 20px;
+    color        : #000000;
+    margin-bottom: 6px;
+    border       : 0px none;
+    width        : 100%;
+    resize: none;
+}
+
+.inputoptionadd {
+    border          : 0px none;
+    background-color: transparent;
+    width           : 100%;
+}
+
+.inputquestionheading:focus-visible,
+.inputquestionheading:focus,
+.inputquestionsubheading:focus-visible,
+.inputquestionsubheading:focus,
+.inputoptionadd:focus-visible,
+.inputoptionadd:focus {
+    outline: none;
+}
+
+/* ---Result tab css---- */
+
+* {
+    padding: 0;
+    margin : 0;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin : 0;
+    padding: 0;
+}
+
+.topheaderAnalytics {
+    min-height      : 70px;
+    background-color: #fff;
+}
+
+.mainContainerAnalytics
+ {
+    padding         : 60px 0;
+    background-color: #fff;
+    box-shadow      : 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 1px 3px rgb(0 0 0 / 12%);
+    border-radius   : 4px;
+    margin          : 20px auto 0;
+    width           : 93%;
+    position: relative;
+}
+.mainContainerAnalyticsresult{ 
+      
+    background-color: #eee;
+    box-shadow      : 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 1px 3px rgb(0 0 0 / 12%);
+    border-radius   : 4px;
+    margin          : 20px auto 0;
+    width           : 93%;
+    position: relative;
+    min-height: 440px;
+    margin-top: 60px;
+}
+
+.overlayarea{
+    position: relative;
+}
+.overlayarea::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: rgba(0, 0, 0, .2);
+}
+.mainContainerAnalyticsresult img{width: 100%; max-height: 440px;}
+.mainContainerAnalyticsresult .mainAnalyticsresulttext{
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+}
+.mainContainerAnalyticsresult .mainAnalyticsresulttext .mainresultdetails h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    color: #fff;
+    margin-top: 40px;
+}
+.mainContainerViewLive{
+    padding         : 60px 0;
+    background-color: #fff;
+    box-shadow      : 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 1px 3px rgb(0 0 0 / 12%);
+    border-radius   : 4px;
+    margin          : 20px auto 250px;
+    width           : 93%;
+}
+.viewLiveBox{
+    text-align: left;
+    padding: 0 30px;
+}
+.viewLiveBox h2{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.viewLiveBox p{
+    padding: 5px 20px;
+    border: none;
+    background-color: #f4f6f8;
+    border: 1px dashed #ccc;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.mainContainerAnalyticsLisiting {
+    padding         : 10px 0px;
+    background-color: #fff;
+    box-shadow      : 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 1px 3px rgb(0 0 0 / 12%);
+    border-radius   : 4px;
+    margin-top      : 30px !important;
+    margin-left     : 0px !important;
+    margin-right    : 0px !important;
+    margin-bottom: 30px;
+}
+
+.roundcircelresult {
+    background-color: #fff;
+    border-radius   : 50%;
+    text-align      : center;
+    width           : 250px;
+    height          : 250px;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    flex-wrap       : wrap;
+    margin          : auto;
+    color           : #000;
+}
+
+.roundcircelresult h4 {
+    width: 100%;
+}
+
+.roundcircelresult h4 span {
+    display  : block;
+    font-size: 45px;
+}
+
+.mainresultdetails h1 {
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 36px;
+    line-height: 40px;
+    color      : #000;
+    margin-top : 40px;
+}
+
+.analyticsListing {
+    width : 93%;
+    margin: 0 auto;
+}
+
+.analyticsListingleftbar {
+    width  : 15% !important;
+    padding: 10px 15px;
+}
+
+.analyticsListingBody {
+    width      : 82% !important;
+    margin-left: 10px;
+}
+
+.goalslistheadermain {
+    display        : flex;
+    justify-content: space-between;
+}
+
+.iconsheaderpart {
+    display: flex;
+}
+
+.iconsheaderpart span {
+    margin-left: 10px;
+}
+
+.toplistingSection {
+    margin-top   : 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.growthGrpah {
+    width : 60%;
+    margin: 0px auto 50px;
+}
+
+.compareGraph {
+    width : 70%;
+    color :red;
+    margin: 50px auto 0px;
+}
+.compareGraphBar {
+   width: 50% !important;
+    margin: 50px auto 0px;
+}
+.compareGraphBar img{width: 100%;}
+.toplistingSection h4 {
+    font-family  : Roboto;
+    font-style   : normal;
+    font-weight  : bold;
+    font-size    : 18px;
+    line-height  : 21px;
+    color        : #333333;
+    margin-bottom: 8px;
+}
+
+.toplistingSection h5 {
+    font-family  : Roboto;
+    font-style   : normal;
+    font-weight  : 500;
+    font-size    : 16px;
+    line-height  : 19px;
+    color        : #333333;
+    margin-bottom: 8px;
+}
+
+.toplistingSection p {
+    font-family   : Roboto;
+    font-weight   : normal;
+    font-size     : 14px;
+    line-height   : 20px;
+    color         : #000000;
+    padding-bottom: 15px;
+}
+
+.bytextlisitng {
+    font-weight : normal;
+    font-size   : 14px;
+    line-height : 36px;
+    color       : #666666;
+    margin-right: 10px;
+}
+
+.mainseemorecomment {
+    border-top : 1px solid #CCCCCC;
+    text-align : center;
+    margin-top : 20px;
+    padding-top: 10px;
+}
+
+.seemorecomment {
+    font-family    : Roboto;
+    font-style     : normal;
+    font-weight    : 500;
+    font-size      : 16px;
+    line-height    : 19px;
+    color          : #4285F4;
+    text-decoration: none;
+}
+
+.lisitngformgroup {
+    display: flex;
+}
+
+.lisitngformgroup input {
+    margin-right: 10px;
+}
+
+.lisitngformgroup button {
+    min-width    : 100px;
+    background   : #4285F4;
+    border-radius: 4px;
+}
+.lisitngformgroup button:hover{
+    background: #336ccb;
+}
+.analyticsListingmanagegoals {
+    margin-top   : 15px;
+    margin-bottom: 15px;
+}
+
+.analyticsListingmanagegoals h5 {
+    font-family  : Roboto;
+    font-weight  : normal;
+    font-size    : 16px;
+    line-height  : 19px;
+    color        : #333333;
+    margin-bottom: 8px;
+}
+
+.analytcounticsListingmanagegoals {
+    background   : rgba(76, 175, 80, 0.38);
+    border       : 1px solid #4CAF50;
+    box-sizing   : border-box;
+    border-radius: 20px;
+    color        : rgba(0, 0, 0, 0.87);
+    font-size    : 14px;
+    line-height  : 18px;
+    width        : 20px;
+    height       : 20px;
+    display      : inline-block;
+    text-align   : center;
+    margin-left  : 5px;
+}
+
+.collapseMainanalystic {
+    background   : #F4F6F8;
+    box-shadow   : 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    padding      : 15px;
+    margin-top   : 15px;
+}
+
+.goalsheaderpart {
+    display      : flex;
+    align-items  : center;
+    margin-bottom: 15px;
+}
+
+.goalsheaderpart h3 {
+    font-weight  : 500;
+    font-size    : 16px;
+    line-height  : 19px;
+    color        : #333333;
+    margin-bottom: 0px;
+}
+
+.cretaeddategoals {
+    font-family : Roboto;
+    font-weight : normal;
+    font-size   : 14px;
+    line-height : 20px;
+    text-align  : right;
+    color       : #666666;
+    border-right: 1px solid #ccc;
+    border-left : 1px solid #ccc;
+    margin      : 0px 15px;
+    padding     : 0px 15px;
+}
+
+.duedategoals {
+    background   : rgba(76, 175, 80, 0.38);
+    border       : 1px solid #4CAF50;
+    border-radius: 20px;
+    color        : rgba(0, 0, 0, 0.87);
+    font-size    : 12px;
+    line-height  : 20px;
+    margin-bottom: 0px;
+    padding      : 0px 10px;
+}
+
+.firsttextname {
+    background   : #473E8F;
+    width        : 32px;
+    height       : 32px;
+    text-align   : center;
+    line-height  : 32px;
+    padding      : 0px;
+    color        : #fff;
+    border-radius: 50px;
+    font-size    : 14px;
+    margin-right : 10px;
+}
+
+.goalslisting {
+    display        : flex;
+    background     : #FEFEFE;
+    box-shadow     : 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 1px 3px rgb(0 0 0 / 12%);
+    border-radius  : 4px;
+    padding        : 8px 10px;
+    margin-top     : 10px;
+    justify-content: space-between;
+    margin-left    : 20px;
+}
+
+.goalslisting:hover {
+    background: #DAD6FF;
+}
+
+.textnamecollapse p {
+    padding: 0x;
+    margin : 0px;
+}
+
+.lasttimegoals p {
+    padding    : 0x;
+    margin     : 0px;
+    font-family: Roboto;
+    font-style : italic;
+    font-weight: normal;
+    font-size  : 14px;
+    line-height: 16px;
+    text-align : right;
+    color      : #666666;
+}
+
+.maincommentsection {
+    display: flex;
+}
+
+.analyticsListing .CircularProgressbar-path {
+    stroke: red;
+}
+
+.analyticsListing .CircularProgressbar-trail {
+    stroke: #000;
+}
+
+.analyticsListing .CircularProgressbar-text {
+    fill: yellow;
+}
+
+.analyticsListing .CircularProgressbar-background {
+    fill: #000;
+}
+
+/* footer image section */
+.footerimagesection {
+    background   : #19324B;
+    padding      : 50px !important;
+    display      : flex;
+    align-items  : center;
+    justify-content: center;
+    margin-top   : 30px !important;
+    width        : 93%;
+    margin       : 0 auto;
+    margin-bottom: 60px;
+    border-radius: 4px;
+}
+
+.footerimagepreview {
+    align-items: center;
+    max-width: 672px;
+}
+
+
+
+.leftheadingfooter h1 {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: bold;
+    font-size  : 30px;
+    line-height: 35px;
+    display    : flex;
+    align-items: center;
+    color      : #FFFFFF;
+
+}
+
+.rightheadingimagefooter {
+    background: #FFFFFF;
+    padding   : 30px;
+    width     : 50% !important;
+    position  : relative;
+    margin-top: 50px !important;
+    max-width : 445px;
+}
+
+.imageboxfooter {
+    width        : 100px;
+    height       : 100px;
+    margin-top   : -70px;
+    border-radius: 50%;
+    overflow     : hidden;
+    position     : absolute;
+    background   : #FFFFFF;
+    box-shadow   : 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 1px 3px rgb(0 0 0 / 12%);
+}
+
+.rightheadingimagefooter h1 {
+    font-family   : Roboto;
+    font-style    : normal;
+    font-weight   : 500;
+    font-size     : 18px;
+    line-height   : 20px;
+    color         : #000000;
+    margin-left   : 120px;
+    text-transform: uppercase;
+}
+
+.rightheadingimagefooter p {
+    font-family: Roboto;
+    font-style : normal;
+    font-weight: normal;
+    font-size  : 16px;
+    line-height: 24px;
+    color      : #333333;
+    margin-top : 30px;
+}
+
+.rightheadingimagefooter .KnowMore {
+    background   : rgb(66, 133, 244);
+    border-radius: 4px;
+    border       : none;
+    color        : #FFFFFF;
+    font-size    : 15px;
+    line-height  : 18px;
+    min-height   : 40px;
+    padding      : 0px 16px;
+    font-family  : Roboto;
+    font-style   : normal;
+    font-weight  : 500;
+}
+
+
+
+/* footer image section end */
+
+.contantforresult {
+    padding         : 60px !important;
+    background-color: #fff;
+    box-shadow      : 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 1px 3px rgb(0 0 0 / 12%);
+    border-radius   : 4px;
+    width           : 93%;
+    margin          : 0 auto;
+    margin-top      : 30px !important;
+
+
+}
+
+.contantforresult .polardumy{
+    width: 400px;
+    height: 400px;
+}
+.contantforresult .polardumy img{width: 100%;}
+.contantforresult h1 {
+    font-style   : normal;
+    font-weight  : 500;
+    font-size    : 36px;
+    line-height  : 40px;
+    color        : #000;
+    margin-bottom: 24px;
+}
+
+.contantforresult h2 {
+    font-style   : normal;
+    font-weight  : 500;
+    font-size    : 28px;
+    line-height  : 40px;
+    color        : #000;
+    margin-bottom: 16px;
+}
+.contantforresult p{
+    margin-bottom: 16px;
+}
+
+/* landing option banner */
+.landingshortBanner{
+    max-height: 380px;
+}
+.landingtallBanner{
+    max-height: 440px;
+}
+.landingfullImage{display: flex; justify-content: center; align-items: center;}
+.landingfullImage img{width: 100%;height: 440px;}
+.landingoriginalImage {text-align: center;}
+.landingoriginalImage img{width: auto !important; display: none;}
+
+.checboxselectedques{text-align: center;}
+.btnaddoptions{
+    background: #4285F4;
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: #fff;
+    border: 1px solid #4285F4;
+    font-size: 15px;
+    margin-top: 16px;
+}
+
+.btnaddoptions:hover{
+    background: #336ccb;
+    border-color: #3172df;
+}
+a.btn.btn-deletequestion:hover{
+background: #d01f1f;
+}
+
+@media screen and (max-width: 576px) {
+    .body_assesment .clientDetails_none {
+        width        : 100%;
+        margin-bottom: 60px;
+    }
+    .feedbackinnerdata .inputinner {
+        display        : block;
+    }
+    .mainContainerAnalyticsresult{
+        width: 100%;
+        min-height: initial;
+    }
+    .roundcircelresult{
+        width: 120px;
+        height: 120px;
+    }
+    .roundcircelresult h4{font-size: 18px;}
+    .roundcircelresult h4 span{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .feedbackinnerdata .inputinner .setinputwidth {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .chartBelowContent .self_right{ margin-top: 30px; width: 100%;}
+    .chartBelowContent .self_left{width: 100%;}
+    .body_assesment .questionSection {
+        width: 100%;
+    }
+    .questionradio{position: relative;}
+    .questionradio .questionIconHead{
+        position: absolute;
+    top: 5px;
+    right: -10px;
+    }
+    .hidesubOption{padding: 16px 16px 0;}
+    .hidesubOption label{min-width: 120px;}
+    .questionradio p{width: 60%;  }
+    .mainContainerAnalytics {
+        width: 100%;
+    }
+
+    .mainContainerAnalyticsresult .mainAnalyticsresulttext .mainresultdetails h1 {
+        font-size  : 24px;
+        line-height: 30px;
+        width      : 100%;
+        text-align : center;
+        margin     : 10px auto 0;
+    }
+
+    .contantforresult {
+        width  : 100%;
+        padding: 20px !important;
+    }
+    .contantforresult .polardumy{height: 320px;}
+    .contantforresult h1{ font-size: 30px; line-height: 36px; margin-bottom: 20px;}
+    .contantforresult h2{font-size: 24px; line-height: 32px;}
+    .footerimagesection {
+        width        : 100%;
+        margin-bottom: 75px;
+    }
+
+    .breadcrumb_assesment {
+        display: block;
+    }
+
+    .breadcrumb ol {
+        margin-bottom: 10px;
+        flex-wrap: initial;
+    }
+
+    .breadcrumb_assesment .rightBtn button {
+        margin-left : 0px;
+        margin-right: 8px;
+    }
+
+    .assesment_page .breadcrumb {
+        margin-bottom: 16px;
+    }
+
+    .body_assesment .aside {
+        padding: 0px 12px;
+    }
+    .feedbackupdatebox .boxcontent{
+        display: block;
+    }
+    .feedbackupdatebox .boxcontent .contentlevel {
+        padding-bottom: 10px;
+    }
+    .feedbackupdatebox .boxhead .updatetime {
+        width: 110px;
+        text-align: end;
+    }
+    .feedbackupdatebox .boxhead {
+        align-items: baseline;
+    }
+}
+@media screen and (max-width: 1367px) {
+    .left_partquestion {
+        min-width: 250px;
+        max-width: 250px;
+    }
+}
+@media screen and (max-width: 1192px) {
+    .right_partquestion{width: calc(100% - 200px);}
+    .left_partquestion {
+        min-width: 200px;
+        max-width: 200px;
+    }
+    .accordionBody .accordionBodybtn {
+        display: block;
+    }
+
+    .accordionBody .accordionBodybtn .accordionbtns {
+        width          : 100%;
+        justify-content: center;
+        margin         : 8px 0
+    }
+    
+    .RightSide .slider_images {
+        display   : block;
+        margin-top: 0;
+        top       : 0;
+    }
+
+    .self_assesment {
+        padding: 50px 20px 0;
+    }
+
+    .RightSide .slider_images .left_input {
+        width        : 100%;
+        margin-bottom: 50px;
+    }
+
+    .slideRight {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 767px) and (max-width:1100px){
+    .mainresultdetails{padding: 0 30px;}
+    .contantforresult h2{margin-top: 20px;}
+    .leftheadingfooter{width: 100% !important; margin-bottom: 60px;}
+    .footerimagesection{     padding: 30px !important; }
+    .authorProfileBottom .slideRight { width: 80%; }
+    .chartBelowContent .self_left,
+    .chartBelowContent .self_right,
+    .chartTopContent .self_left,
+    .chartTopContent .slideRight{
+        width: 80%;
+    }
+    .questiondatabox{ display: block; }
+    .left_partquestion{margin-bottom: 20px;}
+    .onpagetext{margin: 20px 0px;}
+    .inputquestionsubheading{padding: 0;}
+}
+@media screen and (max-width: 991px) {
+    .question {
+        display       : block;
+        padding-bottom: 20px;
+    }
+
+    .left_partquestion .deletImage {
+        right: initial;
+        left : 6px;
+    }
+    .self_content{ display: block; }
+    .self_content .self_left,
+    .self_content .self_right{width: 100%;}
+    .inputquestionheadingBox {
+        margin-top: 20px;
+    }
+    .questiondatabox{
+        display: block;
+    }
+    .onpagetext .dropdown_seo p{
+        position: relative;
+    }
+    .onpagetext .dropdown_seo p svg{
+        position: absolute;
+        top: 12px;
+        right: 16px;
+        font-size: 10px;
+    }
+    .right_partquestion{margin-top: 20px;}
+    .onpagetext .dropdown_seo{display: block;}
+    .onpagetext .dropdown_seo .feedback_question{margin-right: 10px;}
+    .question_type{margin-bottom: 8px; margin-right: 10px;}
+    .question_maping{margin-top: 8px; margin-right: 10px;}
+    .checkboxQuestion,
+    .slidersection {
+        margin-top: 20px;
+    }
+
+    .self_content .self_left {
+        margin-left  : 0px;
+        padding-right: 0px;
+    }
+
+    .self_content .self_right {
+        margin-right: 20px;
+    }
+
+    .contantforresult {
+        padding: 30px !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .RightSide .pexelsback {
+        width: initial;
+    }
+    .compareGraph{width: 100%;}
+    .RightSide .slider_images {
+        padding: 15px 30px;
+    }
+    .body_assesment .leftBar {
+        min-height: initial;
+    }
+    .question_maping{padding: 3px 0 0;}
+    .hidesubOption .setinputwidth1{display: block;}
+    .hidesubOption input,
+    .hidesubOption select{margin-left: 0; margin-top: 3px;}
+    /* .compareGraph{width: 100%; display: block; overflow-x: scroll;}
+    .compareGraph canvas {
+        height: 500px !important;
+    width: 700px !important;
+    } */
+    .compareGraph canvas {
+        min-height: 220px !important;
+    }
+    .self_assesment {
+        padding: 50px 20px 0;
+    }
+    .self_assesment .assesmentTitle{
+        margin-bottom: 20px;     
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .chartTopContent {
+        display: block;
+    }
+
+    .chartTopContent .self_left {
+        width: 100%;
+    }
+
+    .chartTopContent .self_right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .foterBtn button {
+        margin-bottom: 16px;
+    }
+
+    .leftheadingfooter {
+        width: 100% !important;
+        margin-bottom: 40px;
+    }
+    .leftheadingfooter h1{font-size: 24px; line-height: 32px;}
+    .footerimagesection{ padding: 30px !important}
+    .authorProfileBottom{padding: 60px 16px; margin-top: 20px;}
+    .authorProfileBottom .slideRight{width: 100%;}
+    .onpagetext{margin: 20px 0px;}
+    .inputquestionsubheading{padding: 0;}
+    .right_partquestion{width: calc(100% -  00px);}
+    .checkboxQuestion {
+        display: block;
+    }
+    .question {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .breadcrumb .rightBtn .publish{
+        margin-top: 10px;
+    }
+}

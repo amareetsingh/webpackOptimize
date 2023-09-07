@@ -1,0 +1,76 @@
+.mainContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+	padding: 30px 0;
+}
+.Score{
+    flex: 0 0 15%;
+    max-width: 15%;
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+	justify-content: space-around;
+	min-height: 350px;
+ 
+}
+
+.ChartData{
+    flex: 0 0 70%;
+    max-width: 70%;
+	
+}
+
+/* .title{
+    width: 90%;
+    margin: auto;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+ */
+.scoreCircular{
+   width: 200px;
+    
+}
+ .container{
+    width: 93%;
+    margin-bottom: 60px;
+	background-color: white;
+ }
+
+.title-2{
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	top: 15px;
+}
+
+.title-2 .head-num{
+	color: #fff;
+	background: #558ff5;
+	font-size: 25px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 50%;
+	position: absolute;
+	left: 0;
+}
+
+.title-2 .head-title{
+	color: #fff;
+	background: #483f90;
+	display: inline-block;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 25px 0 40px;
+	font-size: 25px;
+	/* float: left; */
+	margin-left: 25px;
+}

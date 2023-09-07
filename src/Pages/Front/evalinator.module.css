@@ -1,0 +1,1247 @@
+.heightvh {  height: 100vh;}
+ .heightvh img{height:auto; width:auto} 
+
+.lanindgmainpage {
+    margin-bottom: -76px;
+}
+
+.lanindgmainpage .container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 12px;
+}
+
+.contentCenter {}
+
+.noImageBanner {
+    min-height: 450px;
+}
+
+/* ===== Top banner section ======= */
+.nodatapage img {
+    /* width: 100%; */
+}
+
+.benchmarkformMain button {
+    border-color: transparent;
+}
+
+.mainbannertop {
+    position: relative;
+    min-height: 480px;
+}
+
+.innerSubHeading {
+    position: relative;
+    font-size: 35px;
+    color: #777575 !important;
+    margin-top: 17px;
+    text-align: center;
+}
+
+.backgroundNone {
+    background: none !important;
+}
+
+.fronttallBanner.imagebanner {
+    max-height: 0;
+}
+
+.imagebanner {
+    max-height: 500px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyQuestionlist {
+    min-height: 200px;
+}
+
+.imagebanner:before {
+    /* content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 20%);*/
+}
+
+.imagebanner img {
+    width: 100%;
+}
+
+.contantbanner {
+    position: absolute;
+    top: -70px;
+    right: 0;
+    left: 0;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* transform: translate(0%, -50%); */
+}
+
+.contantbanner img {
+    max-height: 400px;
+    overflow: hidden;
+    max-width: 90%;
+}
+
+.contantbanner h3 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 56px;
+    color: #fff;
+    font-family: 'Roboto';
+}
+
+/* ===== Top banner section end ====== */
+
+
+
+/* ===================== FrontDetails Components CSS ================ */
+
+
+
+
+.bannerAuthor .mainuserdetaillist {
+    margin-top: 0;
+}
+
+.contantbannerWithAuthr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 480px;
+}
+
+.contantbannerWithAuthr img {
+    max-height: 400px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.contantbannerWithAuthr h3 {
+    color: #fff;
+    font-size: 44px;
+    font-family: 'Roboto';
+    text-align: center;
+    line-height: 1.1;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+/*.fronttallBanner ~ .bannerauthorbox{
+ position: initial;
+}*/
+.mainbannertop .bannerauthorbox {
+    position: static;
+}
+
+.bannerauthorbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    left: 0;
+    margin: 0px auto;
+    width: 100%;
+    padding: 10px 60px;
+}
+
+.bannerauthorboxnew {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    margin: 0px auto;
+    width: 100%;
+    transform: translate(0%, -50%);
+}
+
+.bannerauthorboxnew .contantbanner {
+    top: 0;
+    transform: translate(0%, -50%);
+}
+
+.bannerauthorboxnew .contantbanner h3 {
+    margin-top: 10px;
+}
+
+.bannerauthorboxnew .contantbanner .nosmallBanner img {
+    max-width: 100%;
+}
+
+.fullImageBanner {
+    width: 100%;
+    position: relative;
+}
+
+.mainbannertop .imagebanner img {
+    display: block;
+}
+
+.mainbannertop .bannerauthorbox {
+    width: 81%;
+}
+
+.frontdetailspage {
+    padding: 60px 60px !important;
+    background-color: #fff; /* #f4f6f8;*/
+    /* box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 1px 3px rgb(0 0 0 / 12%); */
+    border-radius: 4px;
+
+}
+
+/* .frontshortBanner{height: 550px;} */
+/* .fronttallBanner{height: 550px;} */
+.frontdetailspagerowTopContent {
+    flex-direction: column-reverse;
+}
+
+.frontdetailspagerowBelowContent {
+    flex-direction: column;
+}
+
+.landingfrontdetailrightside {
+    width: 45%;
+    margin: 30px auto;
+}
+
+.landingfrontdetailrightside h1 {
+    font-size: 30px;
+    font-family: 'roboto';
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.landingfrontdetailleftside {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.landingfrontdetailleftside {
+    font-size: 20px;
+    font-family: 'roboto';
+    line-height: 28px;
+    color: #737184;
+}
+
+.landingfrontdetailleftside p:first-child {
+    margin-bottom: 15px;
+}
+
+.frontdetailspagerow {
+    max-width: 1170px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.frontdetailscenterbutton {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.frontdetailleftside {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 24px;
+    color: #625f75;
+}
+
+.frontdetailrightside h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.frontdetailscenterbutton .btnfrontdetails {
+    text-transform: uppercase;
+    border-color: #fff;
+    border: 1px solid #fff;
+    padding: 20px 25px;
+    margin: 0px 7px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    min-width: 165px;
+    background: rgb(71, 62, 143);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: 24px;
+    display: inline-block;
+    font-family: 'Roboto';
+}
+
+.frontdetailspagerow .landingfrontdetailrightside {
+    width: 80%;
+    margin: 0px auto;
+}
+
+.frontdetailspagerow .landingfrontdetailleftside {
+    width: 90%;
+}
+
+.frontdetailspagerow .landingfrontdetailleftside p {
+    margin-bottom: 15px;
+}
+
+/* =================== FrontDetails Components CSS end ============== */
+
+
+/* ======= user detail ========== */
+.userdetailpage {
+    background: #483f90;
+    padding: 50px 120px !important;
+    display: flex;
+    align-items: center;
+    /* margin-top: 60px !important; */
+    min-height: 500px;
+}
+
+.fullImageBanner .nosmallBanner img {
+    display: none;
+}
+
+.mainbannertop .nosmallBanner {
+    text-align: center;
+}
+
+.mainuserdetaillist {
+    background: #FFFFFF;
+    padding: 10px 20px 30px;
+    min-width: 630px;
+    max-width: 630px;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 60px;
+}
+
+.imageboxuserlist {
+    width: 150px;
+    height: 150px;
+    margin-top: -90px;
+    line-height: 150px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 5px solid #ffffff;
+    overflow: hidden;
+    position: absolute;
+    background: #FFFFFF;
+    margin-right: 10px;
+    display: inline-block;
+    box-shadow: 0px 0px 7px 0px rgb(0 0 0 / 20%);
+}
+
+.imageboxuserlist img {
+    width: 100%;
+}
+
+.mainuserdetaillist h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    color: #625f75;
+    margin-left: 180px;
+    margin-top: 28px;
+    text-transform: uppercase;
+}
+
+.mainuserdetaillist p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #737184;
+    font-weight: 400;
+    margin-top: 15px;
+    font-family: 'Roboto';
+}
+
+.mainuserdetaillist .KnowMore {
+    background: #4285f4;
+    border-radius: 4px;
+    border: 1px solid #4285f4;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 54px;
+    min-height: 54px;
+    padding: 0px 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.mainuserdetaillist .KnowMorenew {
+    text-transform: uppercase;
+    border-color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 40px;
+    margin: 20px 0px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    min-width: 161px;
+    background: rgb(71, 62, 143);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    line-height: 24px;
+    display: inline-block;
+    font-family: 'Roboto';
+}
+
+/* ====== User detail css end ===== */
+
+
+/* Question List */
+.questionimagelest {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.questionimagelest img {
+    width: 100%;
+}
+
+.questiontitle {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000;
+}
+
+.questionlistMain {
+    margin-top: 10px;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 1px 3px rgb(0 0 0 / 12%);
+    border-radius: 4px;
+    position: relative;
+}
+
+.headingquestion h1 {
+    font-size: 24px;
+    text-align: left;
+    margin: 0px 0 20px 0;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.questionsbox h4 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+
+.paginationQuestion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.questionsbox .spacegroups {
+    margin: 10px 0px;
+}
+
+.questionsbox .spacegroups label {
+    font-size: 20px;
+}
+
+.questionsbox .spacegroups input {
+    top: 4px;
+    position: relative;
+}
+
+.paginationBtn {
+    border: 0px none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: #4285f4;
+    border-radius: 30px;
+    margin-left: 0px;
+}
+
+.paginationBtn:hover {
+    background-color: #473e8f;
+    color: #fff;
+}
+
+.paginationBtn span {
+    padding: 0px 5px;
+}
+
+/* .totalQuestioncounter {
+    padding: 5px 0px;
+} */
+
+.questinlistcheckbox {
+    width: 100%;
+}
+
+.questinlistcheckbox>p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.questinlistcheckbox span {
+    width: 60px;
+}
+
+.questinlistcheckbox>div {
+    width: 60px;
+}
+
+.inlinecheckbox {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    padding-left: 0px;
+    text-align: center;
+    position: relative;
+    margin-right: 0px;
+    border: 1px solid #ccc;
+    line-height: 58px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    color: #ccc;
+}
+
+.questinlistcheckbox Form input {
+    width: 60px;
+    height: 60px;
+    margin-top: 0px;
+    position: absolute;
+    opacity: 0;
+    margin-left: -24px !important;
+}
+
+/* Question List CSS end */
+
+/* Benchmark form  */
+.Benchmarkformpage {
+    margin-top: 40px;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 1px 3px rgb(0 0 0 / 12%);
+    border-radius: 4px;
+}
+
+.benchmarkformMain {
+    max-width: 440px;
+    margin: 15px auto;
+    border: 1px solid #ccc;
+    padding: 20px 30px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.benchmarkformMain .fgroup {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.benchmarkformMain {
+    border-color: transparent;
+}
+
+.fgroup input {
+    border: 0px;
+    border-bottom: 1px solid #ced4da;
+}
+
+.textCenter {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+.headingform {
+    font-size: 22px;
+    text-align: center;
+    margin: 0px 0 15px 0;
+    display: inline-block;
+    width: 100%;
+    color: #473e8f;
+    padding-bottom: 20px;
+
+}
+
+.registraioncheckbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.registraioncheckbox input {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    padding: 0px;
+    margin-right: 10px;
+
+}
+
+.registraioncheckbox input:checked {
+    background-color: #0d6efd;
+    border: 0px none;
+    position: relative;
+}
+
+.registraioncheckbox input:checked:before {
+    content: "✓";
+    position: absolute;
+    top: -2px;
+    left: 5px;
+    width: 18px;
+    height: 18px;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Benchmark form CSS end */
+.rangeslidermain {
+    position: relative;
+}
+
+.rangeslidermarker {
+    cursor: pointer;
+}
+
+.rangeslidermarker:focus {
+    box-shadow: none;
+}
+
+.rangeslidercustom {
+    position: relative;
+}
+
+.rangeslidercustom.contentCenter .range_slide_options ul {
+    justify-content: center;
+}
+
+.rangeslidercustom .range_slide_options ul {
+    display: flex;
+}
+
+.rangeslidercustom .range_slide_options ul li {
+    position: relative;
+    float: left;
+    padding: 0px;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    color: #212529;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    border-left: none;
+    margin-bottom: 0px;
+}
+
+.rangeslidercustom .range_slide_options ul li input[type="radio"]:checked+span {
+    background: #428bca;
+    color: #fff;
+}
+
+.rangeslidercustom .range_slide_options ul li span {
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    line-height: 60px;
+    background: #fff;
+    z-index: 1;
+}
+
+.rangeslidercustom .range_slide_options ul li input[type="radio"] {
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.rangeslidercustom .range_slide_options ul li:first-child {
+    border-left: 1px solid #ccc;
+}
+
+
+
+.range_slide_option {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    height: 2px;
+    top: 7px;
+    left: 0;
+    justify-content: space-between;
+}
+
+.range_slide_option span:hover label {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: rgba(0, 0, 0, 4);
+    bottom: -46px;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+
+
+}
+
+.range_slide_option span label {
+    display: none;
+
+}
+
+.range_slide_option span {
+    width: 22px;
+    height: 22px;
+    border-radius: 100px;
+    background: #C4C4C4;
+    display: inline-block;
+    pointer-events: none;
+}
+
+.questionprogressbar {
+    height: 5px;
+    background: #428bca;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+}
+
+.questionsbox .lessandmoretext {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+    border: 0px none;
+}
+
+.questionsbox .lessandmoretext:focus {
+    outline: none;
+    border: 0px none;
+}
+
+.lessandmoretext::placeholder {
+    color: #000000;
+    opacity: 1;
+}
+
+.lessandmoretext:-ms-input-placeholder {
+    color: #000000;
+}
+
+.lessandmoretext::-ms-input-placeholder {
+    color: #000000;
+}
+
+.skipsteps {
+    font-size: 14px;
+    margin-top: 20px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    display: inline-block;
+    color: #0d6efd;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (max-width:991px) {
+    .questionimagelest {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:991px) {
+    .userdetailpageshort .userdetailpage {
+        padding: 0 !important;
+    }
+
+    .userdetailpageshort .mainuserdetaillist {
+        margin-left: 0;
+    }
+
+    .contantbanner,
+    .landingfrontdetailleftside,
+    .landingfrontdetailrightside {
+        width: 80%;
+    }
+
+    .userdetailpage {
+        padding: 0 60px !important;
+    }
+
+    .userdetailpage .mainuserdetaillist {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .frontdetailspage {
+        padding: 60px 20px !important;
+    }
+
+    .frontdetailrightside h1 {
+        margin-bottom: 20px;
+    }
+
+    .frontdetailscenterbutton .btnfrontdetails {
+        margin-bottom: 10px;
+    }
+
+    .userdetailsection {
+        padding: 30px 20px !important;
+    }
+
+    .mainuserdetaillist {
+        min-width: 300px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .mainuserdetaillist h1 {
+        margin-left: 0;
+        margin-top: 65px;
+        font-size: 26px;
+        line-height: 36px;
+    }
+
+    .fronttallBanner {
+        height: auto;
+    }
+
+    .mainuserdetaillist .KnowMore {
+        margin-top: 16px;
+    }
+
+    .questionlistMain {
+        padding: 16px;
+    }
+
+    .headingform {
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .benchmarkformMain {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        border: none;
+    }
+
+    .benchmarkformMain .registraioncheckbox label {
+        font-size: 14px;
+    }
+
+    .Benchmarkformpage {
+        padding: 16px;
+    }
+
+    .frontdetailspagerow {
+        display: block;
+    }
+
+    .frontdetailspagerow .landingfrontdetailrightside {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .frontdetailspagerow .landingfrontdetailrightside h1 {
+        margin-bottom: 20px;
+    }
+
+    .frontdetailspagerow .landingfrontdetailleftside {
+        width: 100%;
+    }
+
+    .bannerauthorbox {
+        display: block;
+        top: 15px;
+        padding: 10px 30px;
+    }
+
+    .bannerauthorbox .bannerAuthor {
+        margin-top: 30px;
+    }
+
+    .bannerauthorbox .bannerAuthor .userdetailsection {
+        padding: 30px 0px !important;
+    }
+
+    .bannerauthorbox .bannerAuthor .mainuserdetaillist {
+        margin-left: 0;
+    }
+
+    .bannerauthorbox .bannerAuthor .imageboxuserlist {
+        width: 90px;
+        height: 90px;
+        margin-top: -55px;
+        line-height: 90px;
+    }
+
+    .bannerauthorbox .bannerAuthor .mainuserdetaillist h1 {
+        font-size: 24px;
+        line-height: 24px;
+        margin-left: 95px;
+        margin-top: 15px;
+    }
+
+    .mainbannertop .imagebanner img {
+        width: fit-content;
+    }
+
+    .mainbannertop,
+    .userdetailpageshort {
+        padding: 0;
+    }
+
+    .userdetailpageshort .userdetailpage {
+        padding: 0 !important;
+    }
+
+    .userdetailpageshort .mainuserdetaillist {
+        margin-left: 0;
+    }
+
+    .landingfrontdetailleftside,
+    .landingfrontdetailrightside {
+        width: 100%;
+    }
+
+    .userdetailpage {
+        padding: 0 !important;
+    }
+
+    .userdetailpage .mainuserdetaillist {
+        margin-left: 0;
+    }
+
+    .contantbannerWithAuthr {
+        width: 100%;
+    }
+
+    .bannerauthorbox {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .mainuserdetaillist {
+        min-width: 280px;
+    }
+}
+
+/* New Css ADDED */
+
+
+.para {
+    color: gray;
+    padding-top: 5px;
+    font-size: 18px;
+    /* padding: 20px; */
+    padding-bottom: 20px;
+}
+
+.LayoutPage {
+    padding: 0 20px;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+    min-height: 100vh;
+    height: auto;
+}
+
+.descriptionLayout {
+    padding-top: 5px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.button {
+    width: 100%;
+    border: none;
+    background: antiquewhite;
+    border-radius: 8px;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 22px;
+
+    /* padding-top: 30px; */
+}
+
+.leftsecth {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.herobanner {
+    /* padding: 50px; */
+    padding-left: 40px;
+    background: linear-gradient(45deg, #013f3e, #0000003d);
+    height: 550px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.heroimg1 {
+    /* width:100%; */
+    height: 550px;
+}
+
+
+.heroimg {
+    width: auto;
+    max-height: 400px;
+    margin: auto;
+    display: block;
+
+}
+
+.hero {
+    /* background-image: url(../img/img2.jpg); */
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;*/
+    position: relative;
+    /* margin-left: -199px; */
+}
+
+.leftsectionh {
+    font-size: 44px;
+    font-family: 'Roboto';
+    color: #fff;
+    font-weight: 600;
+    margin-top: 99px;
+    padding-right: 79px;
+}
+
+.leftsectp {
+    color: #fff;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.leftsectiona {
+    padding-top: 40px;
+}
+
+.centerSectionh1
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.leftsectionh1 {
+    font-size: 30px;
+    font-family: 'Roboto';
+    color: #fff;
+    font-weight: 600;
+    margin-top: 99px;
+    padding-right: 79px;
+}
+
+.leftsectbutton {
+    background: #c39f7b;
+    border: none;
+    padding: 0 20px; /* Add padding on the left and right */
+    min-width: 250px; /* Set a minimum width */
+    text-align: center; /* Align the text in the center */
+    height: 60px;
+    /* width: 250px; */
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    
+}
+
+.leftsection {
+    padding-top: 75px;
+}
+
+.Mainsection {
+    width: 60%
+}
+
+@media screen and (min-width:576px) and (max-width:850px) {
+    .leftsectp {
+        color: #fff;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+
+    .leftsection {
+        padding-top: 45px;
+    }
+
+    .Mainsection {
+        width: 90%
+    }
+
+    .leftsectionh {
+        font-size: 40px;
+        font-family: 'Roboto';
+        color: #fff;
+        font-weight: 600;
+        margin-top: 40px;
+        padding-right: 49px;
+    }
+
+    .leftsectbutton {
+        background: #c39f7b;
+        border: none;
+        height: 50px;
+        /* width: 200px; */
+        padding: 0 10px; /* Add padding on the left and right */
+        min-width: 200px; /* Set a minimum width */
+        text-align: center; /* Align the text in the center */
+        border-radius: 8px;
+        color: white;
+        font-size: 18px;
+        /* font-weight: 700; */
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .leftsectp {
+        color: #fff;
+        font-size: 17px;
+        /* margin-top: 10px; */
+    }
+
+    .leftsection {
+        padding-top: 20px;
+    }
+
+    .Mainsection {
+        width: 95%
+    }
+
+    .leftsectionh {
+        font-size: 30px;
+        font-family: 'Roboto';
+        color: #fff;
+        font-weight: 600;
+        margin-top: 40px;
+        padding-right: 9px;
+    }
+
+    .leftsectbutton {
+        background: #c39f7b;
+        border: none;
+        height: 50px;
+        /* width: 200px; */
+        padding: 0 10px; /* Add padding on the left and right */
+        min-width: 200px; /* Set a minimum width */
+        text-align: center; /* Align the text in the center */
+        border-radius: 8px;
+        color: white;
+        font-size: 18px;
+        /* font-weight: 700; */
+        margin-top: 15px;
+    }
+}
+
+.scrollFront ::-webkit-scrollbar {
+    overflow: auto;
+    width: 10px;
+    min-height: 600px;
+
+}
+
+/* Track */
+.scrollFront ::-webkit-scrollbar-track {
+    background: #791515;
+}
+
+/* Handle */
+.scrollFront ::-webkit-scrollbar-thumb {
+    background: pink;
+}
+
+/* Handle on hover */
+.scrollFront ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.FrontRatingBandSection {
+    width: 100%;
+    padding: 40px 0;
+    margin-top: 20px;
+    background: #fff;
+
+}
+

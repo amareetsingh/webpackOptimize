@@ -1,0 +1,162 @@
+.profilePage{
+    width: 100%;
+    padding-bottom: 60px;
+}
+.goBack{
+    padding: 20px 0px;
+}
+.goBack a{
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+.goBack a svg{margin-right: 8px;}
+.profilevisual{
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 1px 3px rgb(0 0 0 / 12%);
+    border-radius: 4px;
+}
+.profilevisual p{margin-bottom: 0; margin-top: 8px; text-align: left;}
+.avtar{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.profilevisual h4 {font-size: 20px; line-height: 32px; font-family: 'Roboto'; margin-top: 5px;}
+.avtar img{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+.profilesubscription{
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 1px 3px rgb(0 0 0 / 12%);
+    border-radius: 4px;
+}
+.profilesubscription p{
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.subscribed{   
+    margin: 20px 0;
+}
+.label{
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.value{
+    font-weight: 400;
+    white-space: nowrap;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.subscribeNow{
+    background: #4285F4 !important;
+    border-radius: 4px !important;    
+    color: #fff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    line-height: 18px !important;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #4285F4 !important;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-bottom: 8px;
+    position: relative;
+    padding: 8px 16px !important;
+    margin-top: 20px;
+}
+.subscriptionbtn{
+    background: #4285F4 !important;
+    border-radius: 4px !important;    
+    color: #fff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    line-height: 18px !important;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #4285F4 !important;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-bottom: 8px;
+    position: relative;
+    padding: 8px 16px !important;
+}
+.subscriptionbtn:hover{
+    background: #336ccb !important;
+}
+.subscriptionbtn label{margin-bottom: 0 !important;}
+.subscriptionbtn input{
+    position: absolute;
+    top: -8px;
+    left: -16px;
+    height: 43px;
+    width: 125px;
+    opacity: 0;
+}
+.cancelsubscriptionbtn{
+    background: red !important;
+    border-radius: 4px !important;    
+    color: #fff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    line-height: 18px !important;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid red !important;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-bottom: 16px;
+    position: relative;
+    padding: 8px 16px !important;
+}
+.cancelsubscriptionbtn:hover{
+    background: #c91414 !important;
+}
+.profilecontent{
+    background: #fff;
+    padding: 20px 150px;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 1px 3px rgb(0 0 0 / 12%);
+    border-radius: 4px;
+}
+.profilecontenthead{
+    text-align: center;
+}
+.profilecontenthead h4{font-size: 30px;}
+.hiddenbtn{display: none;}
+.passwordChange{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0px auto;
+    width: 50%;
+}
+.passwordChange .value{
+    cursor: pointer;
+    color: #4285F4;
+    margin-left: 8px;
+}
+.passwordChange .value:hover{text-decoration: underline;}
+
+@media screen and (min-width:767px) and (max-width: 991px){
+    .profilevisual, .profilesubscription{width: 250px;}
+    .profilecontent {width: 400px; margin-left:auto;     padding: 20px 20px;}
+}
+
+@media screen and (max-width: 576px){
+    .profilecontent{margin-top: 25px; padding: 20px 20px; margin-bottom: 100px;}
+}

@@ -1,0 +1,369 @@
+.logoutBtn {
+	height: '30px';
+	width: '100px';
+}
+
+
+body{
+	background: #F4F6F8 !important;
+	font-family: Roboto;
+    padding-bottom: 180px;
+
+}
+.dashboardPage {
+	width: 100%;
+	
+}
+
+.container{
+	max-width: 1140px;
+	margin:auto;
+}
+
+.dashboard_header {
+	  background: #483f90;
+}	
+.dashboard_header {
+      
+    background: #483f90;
+}
+.dashboard_header p {
+     font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: rgba(255, 255, 255, 0.54);
+text-decoration: none;
+}
+
+.dashboard_header .container{
+	display: flex;
+	justify-content: space-between;
+	padding: 6px 0px;
+	align-items: center;
+}
+
+.dashboard_header img {
+    width:auto;
+    height: 40px;
+}
+.dashboard_header a{
+    border: 1px solid #847cc4;
+    padding: 15px 15px;
+    border-radius: 4px;
+}
+
+
+.profile_right {
+	display: block;
+}
+
+.profile_right .user_btn {
+    background: none !important;
+    border: none !important;
+    display: flex;
+    align-items: center;
+    box-shadow: none !important; 
+
+}
+
+.profile_right .user_btn img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.profile_right .user_btn p {
+	padding: 0px;
+	margin:0px;
+	padding-left: 8px;
+  font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;
+}
+
+.profile_right .user_btn:hover{
+	background: none;
+}
+
+
+.logout{
+	border: 0px solid #ccc !important;
+    background: none!important;
+    margin-top: -4px !important;
+}
+
+.logoutBtn{
+	    background: #fff;
+    border: 1px solid #ccc;
+    padding: 7px 15px;
+    float: right;
+    width: 100%;
+    box-shadow: 9px 10px 5px -8px;
+}
+
+.logoutBtn:hover{
+	background: #4285F4;
+	color: #fff;
+	border-color: #4285F4;
+}
+
+.breadcrumb {background: #FFFFFF;
+padding: 15px 15px;}
+
+.breadcrumb ol{
+	margin: 0px;
+}
+.breadcrumb ol a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+    text-decoration: none;
+}
+
+.breadcrumb li.active::before{
+	content: var(--bs-breadcrumb-divider, "|") !important;
+}
+
+.breadcrumb li.active a{
+	color: #333333;
+    border: 0px;
+    border-bottom: 1px solid #262626;
+}
+
+.useblackTemplete {
+    text-align: center;
+    width: 100%;
+    padding: 30px 0px;
+}
+.templates_box{
+    margin-bottom: 60px;
+}
+.templates_box .blacktemplete{
+        display: flex;
+    align-content: center;
+    align-items: center;
+	background: #FFFFFF;
+box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+      margin: 30px 15px 0px;
+    padding: 0px;
+    position: relative;
+}
+.imageBox{
+    position: relative;
+    min-height: 267px;
+    line-height: 250px;
+}
+
+.blacktemplete p{
+	font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #333333;
+margin: 0px;
+}
+.blacktemplete span{
+	font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #333333;
+}
+
+.blacktemplete button {
+    background: #4285F4;
+    border-radius: 4px;
+    border-color: #4285F4;
+    color: #fff;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: 1px solid;
+}
+.blacktemplete button:hover{
+    background: #336ccb;
+}
+
+.blacktemplete  span.input-group-text {
+    padding: 0px;
+    background: none;
+    border: none;
+}
+
+.templete_design p{font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+display: flex;
+align-items: center;
+padding:14px;
+color: #333333;}
+
+
+.blacktemplete{
+    flex: 0 0 auto;
+    width: 30.333333% !important;
+}
+.templete_design{
+    width: 100%;
+}
+.templete_design img {
+    width: 100%;
+}
+.box_design {
+    padding: 16px;
+}
+.box_design h4 , 
+.useblackTemplete h4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+}
+.box_design p , .useblackTemplete p{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: #333333;
+padding: 0px;
+}
+
+.box_design button{
+padding: 10px 15px;
+margin-top: 18px;
+width: 48%;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+}
+
+.box_design .useTemplete {
+background: #4285F4;
+border-radius: 4px;
+color: #fff;
+border: 1px solid #4285F4;
+}
+
+.box_design .useView {
+background: #FFFFFF;
+border: 1px solid #4285F4;
+box-sizing: border-box;
+border-radius: 4px;
+color: #4285F4;
+float: right;
+padding: 10px 15px;
+    margin-top: 18px;
+    width: 48%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none;
+    text-align: center;
+}
+.box_design .useView:hover {
+background: #4285F4;
+color: #fff;
+}
+
+.box_design .useTemplete:hover {
+background: #FFFFFF;
+border: 1px solid #4285F4;
+color: #4285F4;
+}
+
+.useblackTemplete button{
+    margin-top: 20px;
+}
+
+
+.modalTemplete  .modal_header{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    border: none;
+}
+
+.modalTemplete  .modal_footer{
+    border: none;
+      padding-top: 0px;
+}
+
+.modalBody {
+    padding: 0px 20px !important;
+}
+
+.modalTemplete .closeButton{
+    font-size: 16px;
+}
+
+.modalTemplete  label{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #666666;
+}
+
+.modalTemplete .form-control {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    height: 36px;
+}
+
+.modalTemplete  .modal_footer button{
+    background: #4285F4;
+    border-radius: 4px;
+    padding: 6px 16px;
+}
+.modalTemplete  .modal_footer button:hover{
+    background: #336ccb;
+}
+.modalTemplete  .modal_footer button:focus{
+    box-shadow: none;
+}
+.modalHeader {
+    border: none !important;
+}
+.templateview_page{margin-bottom: -76px;}
+.templateview_page img{width: 100%;}
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .templates_box .blacktemplete{
+      margin: 30px 12px 0px;
+}
+
+}
+@media(max-width: 991px){
+.blacktemplete{
+    flex: 0 0 auto;
+    width: 45.333333% !important;
+}
+}
+@media(max-width:767px){
+.blacktemplete{
+    flex: 0 0 auto;
+    width:95% !important;
+    margin: auto !important;
+    margin-top: 30px !important 
+}
+.templates_box{margin-bottom: 80px;}
+
+}

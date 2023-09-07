@@ -1,0 +1,377 @@
+
+.planbox{
+    background: #DEECF9;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 60px;
+    max-width: 416px;
+    margin: 60px auto 0;
+}
+.passHint{
+	
+	font-size: 10px;
+    margin-top: 3px;
+}
+.planbox h2{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.planbox p{
+    font-size: 18px;
+    line-height: 26px;
+    font-family: Roboto;
+    font-weight: 300;
+    max-width: 900px;
+    margin: 0 auto 60px;
+}
+.planbox .planprize{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 62px;
+    font-family: Roboto;
+}
+.planbox .planduration{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    font-family: Roboto;
+}
+.planbox .featuresList{
+    list-style-type: none;
+    margin-top: 40px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.planbox .featuresList li{
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: Roboto;  
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start
+}
+.planbox .featuresList li p{ margin-bottom: 0px; margin-left: 8px;}
+.planbox button{
+    background: #4285F4;
+    border-radius: 4px;
+    padding: 9px 18px;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Roboto';
+}
+.planbox .waitlist{
+    background: #4285F4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    padding: 9px 18px;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Roboto';
+    display: inline-block;
+    height: 48px;
+}
+.planbox button:hover,
+.planbox button:focus{
+    background: #265eba;
+    box-shadow: none;
+}
+.registraioncheckbox input{
+    width: 16px;
+    height: 16px !important;
+    -webkit-appearance: checkbox;
+     appearance: checkbox;
+     margin-right: 10px;
+}
+.modalTemplete>div>div {border-radius: 20px;}
+.registraioncheckbox input:hover,
+.registraioncheckbox input:focus,
+.modalTemplete input:hover,
+.modalTemplete input:focus {
+    box-shadow: none;
+    outline: none;
+    border-color:#ccc ;
+}
+.registraioncheckbox label{font-size: 14px; font-family: 'roboto';}
+.registraioncheckbox label a{text-decoration: none; }
+.modalTemplete label{font-family: 'roboto';}
+.registraioncheckbox{display: flex; align-items: center; margin-bottom: 8px;}
+.modalTemplete .modalBody button{
+    background: #4285F4;
+    border-radius: 4px;
+    padding: 9px 18px;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+    margin: 25px auto 0 ;
+    min-width: 170px;
+}
+.modal-content{ border-radius: 20px;}
+.modal_header{font-family: 'roboto'; font-size: 24px; }
+.modalTemplete .modal-header{padding: 10px 20px;}
+.modalTemplete .modalBody{ padding: 30px 30px 20px 30px; }
+
+.modalTemplete .modalBody h4{
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'roboto';
+    margin-bottom: 8px;    
+}
+.modalTemplete .modalBody .modeltxt{
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'roboto';
+    margin-bottom: 20px;    
+}
+.modalTemplete .modalBody .modeltxt a{text-decoration: none; margin-left: 10px;}
+.modalinput{
+    margin-bottom: 20px;
+    position: relative;   
+}
+.modalinput input{
+    height: 50px; 
+    padding: 5px 35px;
+}
+.modalinput svg, .modalinput img{
+    position: absolute;
+    top: 17px;
+    left: 10px;
+}
+
+.stripeerror{color: red; font-size: 12px;}
+
+@media screen and (max-width:991px){
+    .planbox{text-align: left;}
+    .planbox .featuresList{padding-left: 0;}
+}
+
+@media screen and (min-width: 767px) and (max-width:991px){
+    .planbox .planprize{font-size: 40px; line-height: 52px;}
+    .planbox{margin-top: 30px;}
+}
+
+
+@media screen and (max-width:576px){
+    .planbox .planprize {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .planbox .featuresList {
+        margin-top: 30px;
+    }
+    
+}
+
+.comparison {
+    max-width: 940px;
+    margin: 0 auto;
+    /*font:13px/1.4 "Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    text-align: center;
+    padding: 10px;
+}
+
+    .comparison table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        table-layout: fixed;
+        border-bottom: 1px solid #CCC;
+    }
+
+    .comparison td, .comparison th {
+        border-right: 1px solid #CCC;
+        empty-cells: show;
+        padding: 10px;
+    }
+
+.compareheading {
+    font-size: 18px;
+    font-weight: bold !important;
+    border-bottom: 0 !important;
+    padding-top: 10px !important;
+    text-align: center;
+}
+
+.comparison tbody tr:nth-child(odd) {
+    display: none;
+} 
+
+ .comparerow {
+    /* background: #F5F5F5; */
+    background: #Fff !important;
+    /* background-color: red; */
+}
+
+.comparison  .noncomparerow {
+    background: #F5F5F5;
+    /* background: #0078C1; */
+}
+
+.tickblue {
+    color: #0078C1 !important;
+    font-weight: 600;
+}
+
+.comparison .tickgreen {
+    color: #483f90; /*#009E2C;*/
+}
+
+.comparison th {
+    font-weight: normal;
+    padding: 0;
+    border-bottom: 1px solid #CCC;
+}
+
+.comparison tr td:first-child {
+    text-align: left;
+}
+
+.comparison .qbse, .comparison .qbo, .comparison .tl {
+    color: #FFF;
+    padding: 10px;
+    font-size: 13px;
+    border-right: 1px solid #CCC;
+    border-bottom: 0;
+}
+
+.comparison .tl2 {
+    border-right: 0;
+}
+
+.comparison .qbse {
+    background: #0078C1;
+    border-top-left-radius: 3px;
+    border-left: 0px;
+}
+
+.comparison .qbo {
+    background: #483f90; /*#009E2C;*/
+    border-top-right-radius: 3px;
+    border-right: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: white solid 1px;
+    text-align: center;
+    
+}
+
+.comparison .priceinfo {
+    padding: 5px 15px 15px 15px;
+    text-align: center;
+}
+
+.pricewas {
+    color: #999;
+    text-decoration: line-through;
+}
+
+.comparison .pricenow, .comparison .pricenow span {
+    color: #ff5406;
+}
+
+    .comparison .pricenow span {
+        font-size: 32px;
+    }
+
+.comparison .pricesmall {
+    font-size: 18px !important;
+    position: relative;
+    top: -11px;
+    left: 2px;
+}
+
+.comparison .pricebuy {
+    background: #ff5406;
+    padding: 10px 20px;
+    font-size: 12px;
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin: 5px 0 10px 0;
+}
+
+.comparison .pricetry {
+    /* font-size: 12px; */
+    font-style: italic;
+}
+
+.comparison .pricetry a {
+        color: #202020;
+    }
+
+@media (max-width: 767px) 
+{
+    .comparison td:first-child, .comparison th:first-child {
+        display: none;
+    }
+
+    .comparison tbody tr:nth-child(odd) {
+        display: table-row;
+        background: #F7F7F7;
+    }
+
+    .comparison .row {
+        background: #FFF;
+    }
+
+    .comparison td, .comparison th {
+        border: 1px solid #CCC;
+    }
+
+    .priceinfo {
+        border-top: 0 !important;
+    }
+}
+
+@media (max-width: 639px) 
+{
+    .comparison .pricebuy {
+        padding: 5px 10px;
+    }
+
+    .comparison td, .comparison th {
+        padding: 10px 5px;
+    }
+
+    .comparison .hidemobile {
+        display: none;
+    }
+
+    .comparison .pricenow span {
+        font-size: 16px;
+    }
+
+    .comparison .pricesmall {
+        font-size: 16px !important;
+        top: 0;
+        left: 0;
+    }
+
+    .comparison .qbse, .comparison .qbo {
+        font-size: 12px;
+        padding: 10px 5px;
+    }
+
+    .comparison .pricebuy {
+        margin-top: 10px;
+    }
+
+    .compareheading {
+        font-size: 13px;
+    }
+}
+
